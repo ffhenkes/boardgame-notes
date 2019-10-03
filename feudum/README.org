@@ -1,0 +1,61 @@
+* Objetivo
+
+O objetivo do jogo é tornar-se o mais venerável de todo o reino do rei Daniel.
+
+* Mapa
+
+Dividido em 6 partes: mar (pequenas ilhas), grandes ilhas, floresta, deserto, terra desolada e montanhas. As seis localidades iniciais são circuladas em rosa.
+
+Tiles de região: para cada região há um conjunto de tiles que servem para avançar nas épocas do jogo que é dividido em 5 (épocas). Ao atingir a 5a época o jogo termina e a pontuação final ocorre.
+
+Gráficos: existem dois gráficos no tabuleiro representando o avanço das épocas (tiles que precisam ser removidos em cada uma para avançar para a próxima) e o gráfico de evolução de área.
+(para cada tipo de localidade qual sua escala de evolução, ex: cidade -> feudum).
+
+Barris de vinho: na cor do jogador onde é possível armazenar enxofre para a fermentação de vinho.
+
+Guildas: 6 guildas circundando o tabuleiro.
+
+[[./img/guilds.png]]
+
+(As guildas relacionam-se umas com as outras conforme acima)
+
+* Saco de recursos
+
+Todos os recursos aleatórios do jogo são armazenados.
+
+* Área do jogador (tableau)
+
+Cada jogador recebe o mesmo set de componentes com uma pequena diferença de recursos.
+
+- 11 cartas de ação na cor do jogador
+- 3 peões de 6 lados na cor do jogador representando diferenetes personagens relacionados às guildas
+- 7 marcadores de influência na cor do jogador (mais podem ser conseguidos durante a partida)
+- 4 discos na cor do jogador (dois para uso de guardiões no jogo avançado, que possuem um desenho de ponto de vitória)
+- 7 xelins (dinheiro)
+- 7 recursos de comida
+- 3 recursos diferentes quaisquer a escolha do jogador
+- 1 token de sacola na cor do jogador
+
+* O jogo
+
+O jogo é dividido em 5 épocas nas quais um número indeterminado de rounds pode ser jogado, as épocas avançam conforme os tiles de região são descobertos e ao atingir a 5 época o jogo acaba e são contados os pontos de vitória.
+
+
+Um round consiste em 5 passos ou fases:
+
+- 1) Selecionar 4 das 11 cartas disponíveis e executar suas ações em ordem de turno de jogadores;
+- 2) Alimentar os peões no tabuleiro (comida ou vinho)
+- 3) Rolar o dado de progresso, isso é feito pelo jogador inicial e indica qual tile de região deverá ser removido do jogo.
+- 4) Caso atingida a mudança de época o marcador de época é avançado e a pontuação da época executada.
+O tabuleiro nesse caso é repopulado conforme descrito na mudança época no manual do jogo. Caso a 5 época tenha sido atingida, após a pontuação de época segue-se para a pontuação de final de jogo.
+- 5) Passar o marcador de primeiro jogador em sentido horário e o dado de progresso, caso a 5 época ainda não tenha sido atingida.
+
+* Ações do jogador
+
+Escolha 4 dentre as 11 cartas disponíveis para jogar no round.
+
+Após a escolha das cartas o jogador inicial randomicamente escolhido começa. É possível realizar uma ação normal e/ou uma ação avançada dependendo da carta escolhida.
+
+Alguns símbolos podem aparecer nas cartas
+
+[[./img/symbol.png]]
