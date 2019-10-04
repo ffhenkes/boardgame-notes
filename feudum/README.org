@@ -133,3 +133,23 @@ mantenha uma delas. Devolva as demais cartas para o fundo do baralho.
 
 *6.1) Habilidade especial "Pás e espadas":* caso o jogador descarte um ferro para a sacola de recursos, compre mais duas cartas de escritura do rei e mantenha uma colocando a outra na parte de baixo do
 baralho. Obs: Esta habilidade é executada depois da ação normal concluída, dando uma carta extra ao jogador.
+
+- Escrituras do rei: há dois tipos de escrituras do rei que são bônus durante o decorrer do jogo. Podem ser recursos, dinheiro ou ainda cartas de ataque.
+Mandatos vem com selos vermelhos desenhados na carta e usualmente pedem que se pague algo para receber algo em retorno, estas cartas podem ser jogadas a qualquer momento.
+Por exemplo em uma carta poderá constar que se for descartado uma comida o jogador receberá 3 xelins.
+Ou no caso de cartas de ataque por exemplo pode constar que se o jogador gastar um ferro ganhará +2 de ataque.
+Títulos lhe concedem pontos ao final do jogo por objetivos completados. Selos reais (tokens vermelhos iguais aos que ficam junto a guilda dos nobres) habilitam o objetivo na carta.
+Por exemplo uma carta pode lhe dar pontos de vitória por localidades nas quais seja soberano em determinada região.
+
+São permitidos manter até 3 escrituras do rei, caso adquira-se mais, alguma deverá ser devolvida ao final do baralho.
+
+*7) Ação de colheita:* caso o jogador seja soberano em uma fazenda pegue 5 recursos da sacola de recursos e coloque ao lado de uma de suas fazendas. Apenas uma fazenda é afetada por ação.
+Receba um recurso adicional para cada feudum, fazenda ou conta de rosário que tiver.
+Obs: O máximo de recursos que uma fazenda comporta são 10. Caso uma fazenda possua 10 recursos só poderá receber novos recursos quando baixar desse número.
+
+Favores: ao invés de colocar a colheita completa em uma de suas fazendas o jogador pode escolher comprar os recursos da sacola e colocar a colheira parcial ali e comprar novamente colocando
+em seu estoque pessoal, conforme a tabela de colheita descrita na carta. Caso opte pelos favores, por isso ser um ato muito profano, perderá as contas de rosário transformando-as em selos reais.
+Vire a conta de rosário para o lado inverso vermelho (selo real).
+
+*7.1) Habilidade especial "Inspecionar a colheita":* caso o jogador tenha um peão fazendeiro em jogo ele poderá escolher seus favores visivelmente e depois comprar aleatoriamente
+os recursos para a colheita.
