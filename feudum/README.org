@@ -19,7 +19,7 @@ Guildas: 6 guildas circundando o tabuleiro.
 
 (As guildas relacionam-se umas com as outras conforme acima)
 
-* Saco de recursos
+* Sacola de recursos (mochila)
 
 Todos os recursos aleatórios do jogo são armazenados.
 
@@ -66,7 +66,7 @@ Alguns símbolos podem aparecer nas cartas
 
 Caso o jogador assim escolha, poderá executar apenas uma das ações (extra ou sequencial) por rodada, colocando o recurso correspondente em seu token de sacola na sua área de jogador
 para demonstrar aos demais jogadores sua opção.
-Após a execução da ação o recurso deve ser descartado no saco de recursos.
+Após a execução da ação o recurso deve ser descartado no sacola de recursos.
 
 - Habilidade especial: A posse de determinado recurso, ou de um peão específico permite a utlização da habilidade especial.
 
