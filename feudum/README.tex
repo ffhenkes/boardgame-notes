@@ -1,40 +1,40 @@
-% Created 2019-10-04 Fri 00:59
+% Created 2019-10-04 Fri 14:56
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{fixltx2e}
 \usepackage{graphicx}
-\usepackage{grffile}
 \usepackage{longtable}
+\usepackage{float}
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
 \usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
 \usepackage{amssymb}
-\usepackage{capt-of}
 \usepackage{hyperref}
+\tolerance=1000
 \author{Fabio Favero Henkes}
 \date{\today}
-\title{}
+\title{README}
 \hypersetup{
- pdfauthor={Fabio Favero Henkes},
- pdftitle={},
- pdfkeywords={},
- pdfsubject={},
- pdfcreator={Emacs 24.5.1 (Org mode 8.3.4)},
- pdflang={English}}
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 25.2.2 (Org mode 8.2.10)}}
 \begin{document}
 
+\maketitle
 \tableofcontents
 
 \section{Objetivo}
-\label{sec:orgheadline1}
+\label{sec-1}
 
 O objetivo do jogo é tornar-se o mais venerável de todo o reino do rei Daniel.
 
 \section{Mapa}
-\label{sec:orgheadline2}
+\label{sec-2}
 
 Dividido em 6 partes: mar (pequenas ilhas), grandes ilhas, floresta, deserto, terra desolada e montanhas. As seis localidades iniciais são circuladas em rosa.
 
@@ -52,12 +52,12 @@ Guildas: 6 guildas circundando o tabuleiro.
 (As guildas relacionam-se umas com as outras conforme acima)
 
 \section{Sacola de recursos (mochila)}
-\label{sec:orgheadline3}
+\label{sec-3}
 
 Todos os recursos aleatórios do jogo são armazenados.
 
 \section{Área do jogador (tableau)}
-\label{sec:orgheadline4}
+\label{sec-4}
 
 Cada jogador recebe o mesmo set de componentes com uma pequena diferença de recursos.
 
@@ -73,7 +73,7 @@ Cada jogador recebe o mesmo set de componentes com uma pequena diferença de rec
 \end{itemize}
 
 \section{O jogo}
-\label{sec:orgheadline5}
+\label{sec-5}
 
 O jogo é dividido em 5 épocas nas quais um número indeterminado de rounds pode ser jogado, as épocas avançam conforme os tiles de região são descobertos e ao atingir a 5 época o jogo acaba e são contados os pontos de vitória.
 
@@ -92,7 +92,7 @@ O tabuleiro nesse caso é repopulado conforme descrito na mudança época no man
 \end{itemize}
 
 \section{Ações do jogador}
-\label{sec:orgheadline7}
+\label{sec-6}
 
 Escolha 4 dentre as 11 cartas disponíveis para jogar no round.
 
@@ -119,7 +119,7 @@ Após a execução da ação o recurso deve ser descartado no sacola de recursos
 O jogador DEVE jogar ao menos uma carta por turno mas PODE DESISTIR da ação.
 
 \subsection{As 11 cartas de ação}
-\label{sec:orgheadline6}
+\label{sec-6-1}
 
 
 \textbf{1) Ação migrar:} o jogador pode migrar um de seus peões para dentro ou fora do tabuleiro de jogo. Caso opte por migrar um peão para dentro do tabuleiro, deve pagar uma comida.
@@ -200,6 +200,48 @@ Favores: ao invés de colocar a colheita completa em uma de suas fazendas o joga
 em seu estoque pessoal, conforme a tabela de colheita descrita na carta. Caso opte pelos favores, por isso ser um ato muito profano, perderá as contas de rosário transformando-as em selos reais.
 Vire a conta de rosário para o lado inverso vermelho (selo real).
 
-\textbf{7.1) Habilidade especial "Inspecionar a colheita":} caso o jogador tenha um peão fazendeiro em jogo ele poderá escolher seus favores visivelmente e depois comprar aleatoriamente
-os recursos para a colheita.
+\textbf{7.1) Habilidade especial "Inspecionar a colheita":} caso o jogador tenha um peão fazendeiro em jogo ele poderá comprar os recursos aleatórios normalmente da colheita e escolher visivelmente seus favores dentre os recursos comprados.
+
+\textbf{8) Ação de melhoria:} caso o jogador seja o soberano de determinada localidade pode-se realizar o upgrade dessa localidade pagando o recurso necessário.
+
+Ex:
+posto avançado + 1 recurso de madeira realiza o upgrade para uma fazenda.
+fazenda + 1 recurso de ferro realiza o upgrade para uma cidade, nesse caso todos os recursos residentes na fazenda são descartados para a sacola de recursos.
+cidade + 1 selo real realiza o upgrade para um feudum do tipo de sua escolha. Ao colocar o feudum no tabuleiro verifique o status da guilda correspondente.
+
+Obs (trilha militar): Ao realizar o upgrade para um feudum o jogador tornar-se-á o vassalo do mesmo e deve agora respeito ao rei Daniel que deve ser demonstrado pelo avanço na trilha militar.
+
+Após o upgrade ser realizado, retire o tile de região (avanço de época) correspondente a época atual ou inferior e a região onde ocorrido e pontue de acordo, caso não exista um tile na região correspondente pegue o tile de qualquer região,
+porém não há pontuação nesse caso.
+
+Os tiles de região (avanço de época) podem ser usados de duas formas diferentes: como um recurso curinga ou como um terreno que pode ser usado com a habilidade especial conforme descrito em seguida.
+
+\textbf{8.1) Habilidade especial "Guardar terreno":} devolvendo um recurso de madeira para a sacola de recursos o jogador pode colocar um de seus terrenos coletados ao lado de qualquer local onde seja servo e pontuar 2pv
+Apenas um terreno é permitido por localidade. \textbf{Importante:} jogue essa ação em detrimento da ação normal!
+Coloque 3 recursos no terreno de acordo com o tipo solicitado, a cada época subsequente, depois de pontuar, adicione mais três recursos, cada vez pode-se optar por coletar todos os recursos ou deixar que se acumulem,
+ao coletar os recursos deve-se pagar um para o soberano da localidade como tributo. Ao início de cada época pontue 2pv para cada um de seus terrenos vazios e 4pv para cada terreno com recursos.
+
+\textbf{9) Ação de conquista:} esta ação não pode ser repetida e nem pode ser a última ação do round. Caso o jogador tenha um peão na mesma localização do peão de outro jogador ou feudum. O jogador pode atacar com multiplos de
+seus peões, porem só pode mirar em um peão adversário por vez.
+Peões possuem +1 ataque +2 defesa, monstros possuem +1 ataque +1 defesa, feudums possuem +2 defesa em adição a isso um súdito contará +1 defesa e um servo contará +1 ataque. Ao atacar diretamente um peão valores de ataque e
+defesa de súditos e servos não contam, a luta é mano a mano entre peões. O jogador atacante pode adicionar um único recurso de salitre para aumentar o ataque do peão em +1. Caso o peão atacante seja da guilda dos guerreiros
+podem ser adicionados múltiplos salitres aumentando o ataque em +1 para cada salitre utilizado.
+Ao vencer um peão o atacante retira o peão do adversário do tabuleiro e recebe 2pv. No caso da conquista de um feudum todos os marcadores de influência (soberano e súdito), mas não o peão, são removidos e o feudum é rebaixado
+até o nível de um posto avançado. Caso haja um servo na localidade, este torna-se o soberano no poosto avançado. Cheque status na guilda correspondente neste momento.
+Empates vão para a defesa.
+
+Obs (trilha militar): Para cada conquista realizada o jogador pode colocar um token na trilha com o desenho da catapulta e a cada conquista subsequente, caso falhe em uma conquista na época marcada para avaliação na trilha,
+ subtraia o número de pvs indicados. Os pvs perdidos são cumulativos caso não haja discos na trilha para suprimi-los.
+
+\textbf{9.1) Habilidade especial "Esfomear o povo":} caso o jogador possua um peão de nobre em uma localidade com um súdito ou servo do oponente, um deles pode ser conquistado e devolvido para o seu dono. O jogador não ganhará pvs
+(pois este é um ato desprezível) mas deve adicionar um disco a trilha militar. Após resolver essa ação remova todas as contas de rosário dos frangos na fazenda. Esta ação deve ser executada em detrimento da ação normal.
+
+\textbf{10) Ação de defesa:} essa ação não pode ser repetida, e é a única ação que pode ser jogada fora do seu turno, esta ação dá +1 de defesa sobre qualquer ataque e ainda 1pv. Caso ninguém lhe ataque a carta pode ser jogada em seu
+turno para ganho do pv.
+
+\textbf{10.1) Habilidade especial "Imunidade real":} caso o jogador esteja sendo atacado por uma ação "Esfomear o povo" pode lançar mão dessa habilidade para tornar-se imune e ganhar um selo real. Coloque o selo sob o servo ou súdito
+que esteja sendo atacado e este estará imune enquanto o selo permanecer com ele. O selo pode ser retirado para ser utilizado em outra ação porém o servo ou súdito perderá assim a sua imunidade.
+
+\textbf{11) Ação da guilda:}
+% Emacs 25.2.2 (Org mode 8.2.10)
 \end{document}
