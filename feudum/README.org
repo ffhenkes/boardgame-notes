@@ -86,11 +86,17 @@ Obs: Ao colocar um peão de respectivo personagem no tabuleiro este irá fornece
 específicos para fornecer mais status aos jogadores (peões, feudums, postos avançados, etc). O jogador com mais influẽncia na guilda recebe o título de mestre e coloca seu marcador de influência
 no espaço de 5vps a ser ganho na virada de época, o segundo jogador recebe o título de oficial e coloca seu marcador no espaço de 3vps.
 
-*2) Ação mover:* sua permissão de movimento total é igual ao número de peões que possui no tabuleiro, estes movimentos podem ser divididos entre todos os peões. O jogador pode se deslocar
+*2) Ação de repetir:* esta ação permite que o jogador repita a ação de qualquer carta jogada durante a rodada, desde que a mesma possua o símbolo de repetição no canto superior direito.
+
+*2.1) Habilidade especial "Deja vu":* caso o jogador devolva um salitre para a sacola de recursos é possível executar a carta que não possuir o símbolo de repetição uma segunda
+vez na rodada. Cartas com os símbolos 2x riscados (conquista e defesa) nunca podem ser repetidas.
+
+*3) Ação mover:* sua permissão de movimento total é igual ao número de peões que possui no tabuleiro, estes movimentos podem ser divididos entre todos os peões. O jogador pode se deslocar
 por estradas ou rotas de embarcações especiais.
 
-     Furtando recursos: ao final de sua ação de movimento se um de seus peões estiver ao lado de de localidades com recursos vc pode furtar 1 deles a sua escolha, vc não pode furtar
-de um local que vc mesmo domine ou que possua um servo.
+     Furtando recursos: ao final de sua ação de movimento se um de seus peões estiver ao lado de de localidades com recursos vc pode furtar 1 deles a sua escolha, apenas um de seus peões pode
+fazê-lo mesmo que hajam mais peões junto a recursos. Não é possível furtar de um local que vc mesmo domine ou que vc possua um servo.
+Caso escolha um enxofre o mesmo pode ir para seus suprimentos (tableu) ou para seu barril de vinho.
 
      Embarcações: se o jogador tiver uma embarcação poderá se deslocar pelas rotas especiais, sendo rota de submarino (bolhas), rota de navio (ondas) ou rota de voo (passáros). O jogador
 pode abandonar a embarcação e continuar o movimento pela estrada, mas a mesma poderá ser usada por qualquer um daqui pra frente. Embarcações podem ser adquiridas na guilda do alquimista.
@@ -99,9 +105,31 @@ pode abandonar a embarcação e continuar o movimento pela estrada, mas a mesma 
 
      Viagem épica: Caso vc jogue a ação mover por duas vezes com sucesso na rodada (vide carta de repetir) avance na trilha de viagem épica ao encontrar um espaço com ícone de carta
 compre 2 cartas de escritura real e fique com 1 devolvendo a outra para o fundo do baralho. A viagem é pontuada ao final do jogo sendo que o primeiro jogador na trilha pontua o maior
-valor da seção onde se encontra, caso empate ambos pontuam o maior valor. No final da trilha todos que lá chegarem pontuam 17pvs
+valor da seção onde se encontra, caso empate ambos pontuam o maior valor. No final da trilha há o monastério, qualquer marcador que o atingir marcará 17pvs.
 
-*2.1) Habilidade especial "boa sorte":* Caso o jogador possua um peão monge no tabuleiro este pode adicionar +1 ao seu movimento. Escolha um de seus peões monge para a habilidade.
+*3.1) Habilidade especial "boa sorte":* Caso o jogador possua um peão monge no tabuleiro este pode adicionar +1 ao seu movimento. Escolha um de seus peões monge para a habilidade.
 Qualquer peão independente do personagem pode ser movido.
 
-*3) Ação de Influência:*
+*4) Ação de Influência:* o jogador pode adicionar um marcador de influência para cada local que houver um de seus peões. Cada localidade pode conter no máximo tres marcadores
+pertencentes a dois jogadores.
+
+Soberanos, súditos e servos: O primeiro jogador a adicionar um marcador de influência no local torna-se o soberano, o segundo e diferente jogador coloca o marcador ao lado sendo
+o servo garantindo o direito de guardar o terreno. No futuro qualquer um dos dois jogadores pode adicionar um marcador de influência final, caso já seja vc o soberano adicione este
+marcador ao lado tornando-se o súdito, caso vc seja o servo, tome o lugar do soberano rebaixando o mesmo a servo e tornando seu outro marcador súdito.
+
+Obs: algumas localidades podem aumentar status em algumas guildas, verifique os status neste momento.
+
+*4.1) Habilidade especial "dinheiro é influência":* se o jogador tiver o peão de comerciante em um local governado por um único marcador de oponente (ou seja não há súdito), pague 1 xelim
+para mover o soberano da região para a posição de servo e coloque um de seus marcadores de influência como soberano na localidade. Mesmo que o jogador tenha múltiplos mercadores em outras
+localidades, poderá executar essa habilidade em apenas uma delas.
+
+*5) Ação de taxação:* caso o jogador seja soberano em uma cidade, colete 2 xelins, ganhe 1 xelim adicional para cada cidade ou feudum adicional que o jogador controle.
+
+*5.1) Habilidade especial "Reforços":* caso o jogador possua um peão de guerreiro (cavaleiro) no tabuleiro pode também coletar um marcador de influência do estoque geral ou da
+guilda dos guerreiros (caso o estoque esteja esgotado). Mesmo que possua múltiplos cavaleiros apenas um marcador é coletado.
+
+*6) Ação de exploração:* caso o jogador seja o soberano de um posto de controle compre duas cartas de escritura do rei + 1 carta para cada posto avançado adicional e/ou feudum governado e
+mantenha uma delas. Devolva as demais cartas para o fundo do baralho.
+
+*6.1) Habilidade especial "Pás e espadas":* caso o jogador descarte um ferro para a sacola de recursos, compre mais duas cartas de escritura do rei e mantenha uma colocando a outra na parte de baixo do
+baralho. Obs: Esta habilidade é executada depois da ação normal concluída, dando uma carta extra ao jogador.
