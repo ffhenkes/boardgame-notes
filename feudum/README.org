@@ -193,4 +193,29 @@ turno para ganho do pv.
 *10.1) Habilidade especial "Imunidade real":* caso o jogador esteja sendo atacado por uma ação "Esfomear o povo" pode lançar mão dessa habilidade para tornar-se imune e ganhar um selo real. Coloque o selo sob o servo ou súdito
 que esteja sendo atacado e este estará imune enquanto o selo permanecer com ele. O selo pode ser retirado para ser utilizado em outra ação porém o servo ou súdito perderá assim a sua imunidade.
 
-*11) Ação da guilda:*
+*11) Ação da guilda:* permite que o jogador execute umas das três ações disponíveis em qualquer guilda.
+
+Negociar: qualquer jogador pode negociar qual qualquer uma das 6 guildas, mesmo não tendo nenhuma influência. Com exceção da guilda dos fazendeiros os jogadores podem trocar dinheiro por produtos (recursos, embarcações, influência,
+selos reais, contas de rosário, etc)
+
+*Guilda dos mercadores:* é possível comprar até 3 recursos pelo preço disponível no mercado.
+
+*Guilda dos alquimistas:* embarcações podem ser compradas por 3 xelins (caso não haja embarcações balsas são liberadas para utilização no mapa).
+
+*Guilda dos guerreiros (cavaleiros):* uma linha completa de marcadores de influência pode ser comprada por 3 xelins. Caso seja comprado pelo menos 3 marcadores de influência é possível ter controle de um dos monstros, devolva
+2 marcadores de influência para o estoque e marque o ícone de monstro selecionado na guilda com outro marcador restante, este monstro ficará consigo até que seja eliminado em combate.
+Há dois tipos de monstros a serpente marinha e o gigante. A serpente marinha é limitada pelas rotas de navio e submarinos. O gigante é limitado pelas rotas de estradas e de máquinas voadoras.
+
+*Guilda dos monges:* Uma cota de rosário por 3 xelins.
+
+A negociação sempre é feita da seguinte forma: 1 xelim para o mestre da guilda, 1 xelim para o oficial, 1 xelim para a bolsa do monge (caso compre de alguma guilda do lado oposto) ou na cesta do fazendeiro (caso compre de alguma
+guilda do lado oposto). O procedimento é repetido até o preço ser finalizado. Ex: Pagando 4 xelins para comprar um item do mercador, iriam 1 para o mestre, 1 para o oficial, 1 para a bolsa do monge e mais 1 para o mestre. Caso os
+membros estejam ausentes, o dinheiro vai para o estoque exceto a participação do monge e/ou fazendeiro.
+
+Para a guilda dos fazendeiros, caso o jogador seja soberano em uma fazenda ele pode esvaziar a mesma, colocar estes recursos na guildae receber uma comida ou um xelim para cada recurso entregue. O máximo de recursos comportado
+pela guilda dos fazendeiros é de 10, caos esse número extrapole e hajam contas de rosário sobre os frangos, 4 desses recursos são então enviados para a guilda dos mercadores, caso falte espaço os restantes vão para a guilda
+do alquimista, todos os restantes são devolvidos para a sacola de recursos.
+
+Puxar: o oficial da guilda
+
+Empurrar: o mestre da guilda
