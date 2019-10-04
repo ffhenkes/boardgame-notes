@@ -54,8 +54,52 @@ O tabuleiro nesse caso é repopulado conforme descrito na mudança época no man
 
 Escolha 4 dentre as 11 cartas disponíveis para jogar no round.
 
-Após a escolha das cartas o jogador inicial randomicamente escolhido começa. É possível realizar uma ação normal e/ou uma ação avançada dependendo da carta escolhida.
+Após a escolha das cartas o jogador inicial randomicamente escolhido começa.
 
 Alguns símbolos podem aparecer nas cartas
 
 [[./img/symbol.png]]
+
+- Ação normal: qualquer jogador pode executar a ação normal descrita na seção superior da carta.
+- Ação extra: o jogador pode gastar um recurso de salitre para adicionar uma quinta carta a sua mão nesta rodada.
+- Ação sequencial: o jogador pode gastar um recurso de enxofre para jogar duas cartas em um único turno.
+
+Caso o jogador assim escolha, poderá executar apenas uma das ações (extra ou sequencial) por rodada, colocando o recurso correspondente em seu token de sacola na sua área de jogador
+para demonstrar aos demais jogadores sua opção.
+Após a execução da ação o recurso deve ser descartado no saco de recursos.
+
+- Habilidade especial: A posse de determinado recurso, ou de um peão específico permite a utlização da habilidade especial.
+
+O jogador DEVE jogar ao menos uma carta por turno mas PODE DESISTIR da ação.
+
+** As 11 cartas de ação
+
+
+- 1) Ação migrar: o jogador pode migrar um de seus peões para dentro ou fora do tabuleiro de jogo. Caso opte por migrar um peão para dentro do tabuleiro, deve pagar uma comida.
+O peão deve ser colocado ao lado de outro peão do jogador ou um de seus marcadores de influência, caso não possua nenhum peão no tabuleiro coloque o mesmo próximo a uma das localidades
+iniciais. Então escolha a face do peão que representa o personagem desejado (fazendeiro, mercador, alquimista, guerreiro, nobre ou monge).
+
+- 1.1) Habilidade especial "Parente distante": Caso já possua um peão no tabuleiro do tipo alquimista, o jogador pode escolher colocar o peão em alguma das localidades iniciais do jogo,
+sem a necessidade de estar junto a outro de seus peões ou marcadores de influência.
+
+Obs: Ao colocar um peão de respectivo personagem no tabuleiro este irá fornecer ao jogador status na respectiva guilda. Verifique sua influência na guilda neste momento. Cada guilda possui critérios
+específicos para fornecer mais status aos jogadores (peões, feudums, postos avançados, etc). O jogador com mais influẽncia na guilda recebe o título de mestre e coloca seu marcador de influência
+no espaço de 5vps a ser ganho na virada de época, o segundo jogador recebe o título de oficial e coloca seu marcador no espaço de 3vps.
+
+- 2) Ação mover: sua permissão de movimento total é igual ao número de peões que possui no tabuleiro, estes movimentos podem ser divididos entre todos os peões. O jogador pode se deslocar
+por estradas ou rotas de embarcações especiais.
+
+     Furtando recursos: ao final de sua ação de movimento se um de seus peões estiver ao lado de de localidades com recursos vc pode furtar 1 deles a sua escolha, vc não pode furtar
+de um local que vc mesmo domine ou que possua um servo.
+
+     Embarcações: se o jogador tiver uma embarcação poderá se deslocar pelas rotas especiais, sendo rota de submarino (bolhas), rota de navio (ondas) ou rota de voo (passáros). O jogador
+pode abandonar a embarcação e continuar o movimento pela estrada, mas a mesma poderá ser usada por qualquer um daqui pra frente. Embarcações podem ser adquiridas na guilda do alquimista.
+
+     Balsas: Caso o alquimista não possua mais embarcações para a venda, as balsas podem ser usadas mediante o pagamento de 2 xelins.
+
+     Viagem épica: Caso vc jogue a ação mover por duas vezes com sucesso na rodada (vide carta de repetir) avance na trilha de viagem épica ao encontrar um espaço com ícone de carta
+compre 2 cartas de escritura real e fique com 1 devolvendo a outra para o fundo do baralho. A viagem é pontuada ao final do jogo sendo que o primeiro jogador na trilha pontua o maior
+valor da seção onde se encontra, caso empate ambos pontuam o maior valor. No final da trilha todos que lá chegarem pontuam 17pvs
+
+- 2.1) Habilidade especial "boa sorte": Caso o jogador possua um peão monge no tabuleiro este pode adicionar +1 ao seu movimento. Escolha um de seus peões monge para a habilidade.
+Qualquer peão independente do personagem pode ser movido.
