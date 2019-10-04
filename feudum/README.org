@@ -151,5 +151,25 @@ Favores: ao invés de colocar a colheita completa em uma de suas fazendas o joga
 em seu estoque pessoal, conforme a tabela de colheita descrita na carta. Caso opte pelos favores, por isso ser um ato muito profano, perderá as contas de rosário transformando-as em selos reais.
 Vire a conta de rosário para o lado inverso vermelho (selo real).
 
-*7.1) Habilidade especial "Inspecionar a colheita":* caso o jogador tenha um peão fazendeiro em jogo ele poderá escolher seus favores visivelmente e depois comprar aleatoriamente
-os recursos para a colheita.
+*7.1) Habilidade especial "Inspecionar a colheita":* caso o jogador tenha um peão fazendeiro em jogo ele poderá comprar os recursos aleatórios normalmente da colheita e escolher visivelmente seus favores dentre os recursos comprados.
+
+*8) Ação de melhoria:* caso o jogador seja o soberano de determinada localidade pode-se realizar o upgrade dessa localidade pagando o recurso necessário.
+
+Ex:
+posto avançado + 1 recurso de madeira realiza o upgrade para uma fazenda.
+fazenda + 1 recurso de ferro realiza o upgrade para uma cidade, nesse caso todos os recursos residentes na fazenda são descartados para a sacola de recursos.
+cidade + 1 selo real realiza o upgrade para um feudum do tipo de sua escolha. Ao colocar o feudum no tabuleiro verifique o status da guilda correspondente.
+
+Obs: Ao realizar o upgrade para um feudum o jogador tornar-se-á o vassalo do mesmo e deve agora respeito ao rei Daniel que deve ser demonstrado pelo avanço na trilha militar.
+Para cada conquista realizada o jogador pode colocar um token na trilha com o desenho da catapulta e a cada conquista subsequente, caso falhe em uma conquista na época marcada para avaliação na trilha, subtraia o número de pvs
+indicados.
+
+Após o upgrade ser realizado, retire o tile de região (avanço de época) correspondente a época atual ou inferior e a região onde ocorrido e pontue de acordo, caso não exista um tile na região correspondente pegue o tile de qualquer região,
+porém não há pontuação nesse caso.
+
+Os tiles de região (avanço de época) podem ser usados de duas formas diferentes: como um recurso curinga ou como um terreno que pode ser usado com a habilidade especial conforme descrito em seguida.
+
+*8.1) Habilidade especial "Guardar terreno":* devolvendo um recurso de madeira para a sacola de recursos o jogador pode colocar um de seus terrenos coletados ao lado de qualquer local onde seja servo e pontuar 2pv
+Apenas um terreno é permitido por localidade. *Importante:* jogue essa ação em detrimento da ação normal!
+Coloque 3 recursos no terreno de acordo com o tipo solicitado, a cada época subsequente, depois de pontuar, adicione mais três recursos, cada vez pode-se optar por coletar todos os recursos ou deixar que se acumulem,
+ao coletar os recursos deve-se pagar um para o soberano da localidade como tributo. Ao início de cada época pontue 2pv para cada um de seus terrenos vazios e 4pv para cada terreno com recursos.
