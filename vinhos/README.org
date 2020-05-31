@@ -167,3 +167,41 @@ No jogo com 2 jogadores apenas os slots da área demarcada interna são válidos
 #+END_QUOTE
 
 *** 7) Banco
+
+- Retirar seus bagos do banco: Mova seu marcador para trás o número de espaços relativo ao valor do saque e pegue este montante em bagos.
+
+Caso atinja o valor de -2VP imediatamente perca esses pontos. Não será mais possível realizar saques até que o saldo seja novamente positivo.
+
+- Depositar seus bagos no banco: Mova seu marcador para a frente o número de espaços relativo ao montante que deseja depositar e entregue seus bagos ao banco.
+
+O valor máximo que o banco suporta são 24 bagos na conta do jogador.
+
+- Investimento: Invista seus bagos no banco, o valor é indicado no tabuleiro. Na fase de manutenção receba juros pelo seu investimento como crédito no banco.
+
+*** 8) Especialistas (Sommelier)
+
+Cada especialista pode ajudá-lo em determinada característica na feira do vinho.
+
+Além disto cada um possui uma habilidade bônus que pode ser usada imediatamente. Para isso vire o tile do especialista para oseu verso e faça uso do bônus.
+
+Após passada a próxima feira vire o especialista de volta para o lado da frente, a habilidade pode ser usada novamente, ou o especialista poderá participar da feira seguinte.
+
+*** 9) Passar/Coletiva de imprensa
+
+- Passe e não faça nada
+
+ou
+
+- Dê uma coletiva de imprensa.
+
+Introduza seu vinho na próxima feira de vinhos.
+Esta ação só pode ser realizada uma única vez por feira. Caso não faça a introdução de seu vinho por meio da coletiva, deverá fazê-lo diretamente no momento da feira.
+
+- Declare qual vinho será apresentado na feira.
+- Opcionalmente remova 1 ou 2 cubos de notoriedade da região de onde o vinho é proveniente para aumentar seu valor.
+
+Isto pode ser necessário para atingir a expectativa do magnata Bruno ou apenas para apresentar um vinho e maior valor na feira.
+
+- Ganhe os pontos de feira caso seu vinho seja de valor superior a 9, ganhe pontos pelo excedente.
+- Pegue seu tile de feira de acordo com a tabela em seu tabuleiro pessoal de jogador.
+- Escolha um quiosque de feira vazio e coloque seu tile nele. Pegue o bônus ofertado nele e ganhe pontos de feira de acordo com as características do vinho marcadas no quiosque. Ex: Aroma (verde), aparência (azul).
