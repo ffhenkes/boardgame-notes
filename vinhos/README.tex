@@ -1,0 +1,413 @@
+% Created 2020-05-31 Sun 00:15
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Fabio Favero Henkes}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Fabio Favero Henkes},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)},
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Vinhos: 2010 Reserve (Resumo das regras com foco em 2 jogadores)}
+\label{sec:org6b3f7be}
+
+Remova aleatóriamente 2 vinhedos.
+
+Aleatóriamente selecione a ordem inicial de jogo.
+
+Em ordem selecionada cada jogador seleciona um vinhedo da região desejada, paga seu custo, ganha o bônus relacionado da região e produz 1 vinho.
+Um cubo de notoriedade é adicionado a região do vinho produzido.
+
+\begin{quote}
+Tudo que é adquirido do tabuleiro é pago com bagos (cash). O salário dos enólogos é pago via banco.
+\end{quote}
+
+O vinho produzido leva em consideração a qualidade base do mesmo, alguns modificadores podem incrementar esse valor (vinícolas por exemplo).
+
+A ordem de turno é novamente alterada, levando em consideração a região de menor número no mapa, do menor para o maior.
+
+Os tile de previsão do tempo dirão quais condições climáticas serão enfrentadas no ano, quais características são tendência do ano para apreciação na feira e quais as preferências dos magnatas.
+
+No primeiro ano o tile 0 é utilizado onde o clima não terá impacto e os magnatas não se importam com as startups do vinho.
+
+\subsection{Início do ano}
+\label{sec:org513fecf}
+
+Descarte o tile de previsão do tempo (obviamente não no ano 1) e coloque o marcador de impostos (marcador do turno) no espaço inicial.
+
+Em ordem de turno cada jogador seleciona uma ação.
+
+Todos iniciam o jogo no espaço central do "Quadrel" e selecionam a ação desejada.
+
+Ações adjacentes (diagonais contam) ao espaço onde se encontra o jogador são gratuitas.
+Ações não adjacentes custam 1 bago pago ao banco.
+Ações onde o meeple de outro jogador se encontre custam 1 bago, pago ao respectivo jogador.
+Ações onde esteja o marcador de impostos (marcador do turno) custam 1 bago, pago ao banco.
+
+Estes efeitos podem ocorrer simultaneamente caso coincidentes.
+Ex: Maria usa a ação onde se encontra João e lhe paga um bago, nesse local também existe o marcador de impostos, Maria também paga um bago ao banco, gastando um total de dois bagos.
+
+O jogador nunca pode executar a mesma ação novamente, o movimento para outra ação é sempre obrigatório. A exceção é no centro do "Quadrel" onde é possível permancer sem executar nenhuma ação (plan better).
+
+Quando um jogador realiza a ação de passar/coletiva de imprensa, ele seleciona a sua própria ordem de turno para a ação sub-sequente.
+
+Após a realização da segunda ação no ano o marcador passa para a fase de manutenção.
+
+\subsection{Ações}
+\label{sec:orgc5e922a}
+
+\subsubsection{1) Vinhedos: Compre quantos quiser, mas apenas 1 por região.}
+\label{sec:org4b28f40}
+
+\begin{itemize}
+\item Pegue o vinhedo do topo da pilha da região desejada.
+\item Pague o custo em bagos (cash).
+\item Coloque em seu tabuleiro em um lote vazio de uma de suas fazendas, ou com outro vinhedo da mesma região do mapa e do mesmo tipo de vinho (branco ou tinto).
+\end{itemize}
+
+Caso seja o primeiro vinhedo na sua fazenda, coloque seu disco na região do mapa de onde o vinhedo fora comprado. Se possível adicione um cubo de notoriedade à região.
+
+\begin{itemize}
+\item Pegue o bônus da região caso se aplique.
+\end{itemize}
+
+\subsubsection{2) Vinícolas: Construa 1 ou 2 vinícolas*}
+\label{sec:orgdddea4f}
+
+Para cada vinícola construída o jogador deve:
+
+\begin{itemize}
+\item Pegar 1 tile de vinícola.
+\item Pagar 3 bagos (cash).
+\item Colocar a vinícola em um lote livre em uma fazenda à sua escolha em seu tabuleiro de jogador.
+\end{itemize}
+
+Cada fazenda pode ter no máximo 2 vinícolas.
+Não é obrigatório que exista um vinhedo na fazenda.
+
+Se possível adicione um cubo de notoriedade à região selecionda (caso exista um vinhedo na fazenda, dessa região), se não for, adicione o cubo à própria vinícola e aguarde o momento onde um vinhedo seja adicionado à fazenda
+para colocar esse cubo na respectiva região.
+
+\subsubsection{3) Enólogos: Contrate 1 ou 2 Enólogos.}
+\label{sec:orgb00f4e3}
+
+Enólogos trabalham em vinícolas, adicionam 2 à qualidade do vinho produzido. Podem mover-se entre fazendas antes da produção.
+
+Para cada Enólogo contratado:
+
+\begin{itemize}
+\item Pague 1 bago (cash).
+\item Coloque o mesmo sobre uma vinícola, cada vinícula comporta 1 Enólogo.
+\end{itemize}
+
+\begin{quote}
+Fazendeiros não podem ser contratados neste modo de jogo (2010 Reserve) a única forma de obte-lôs é na região de \textbf{Ribadejo}.
+\end{quote}
+
+\textbf{Para que as pŕoximas ações sejam melhor compreendidas, alguns conceitos precisam ser apresentados:}
+
+
+\textbf{Envelhecendo e produzindo vinho:}
+
+Ao final de cada ano antes da produção mova dos vinhos existentes um slot para a direita em seu depósito ou adega, representando o envelhecimento.
+Quando não houver mais espaço o vinho se transforma em vinagre e é perdido.
+
+Depois disso é possível mover cada Enólogo para uma vinícola livre.
+
+Fazendeiros podem ser movidos para um vinhedo livre (ver a região de Ribadejo para o uso de fazendeiros).
+
+Então a produção de vinho é iniciada:
+
+\begin{itemize}
+\item Calcule a qualidade do vinho.
+\item Pegue um tile do número apropriado.
+\item Coloque esse tile no espaço mais à esquerda de seu depósito ou adega. Com o lado de vinho branco ou tinto, conforme a produção do respectivo vinhedo.
+\end{itemize}
+
+\textbf{Qualidade do Vinho}
+
+\begin{itemize}
+\item 2 pontos para cada vinhedo na fazenda.
+\item 1 ponto para cada fazendeiro na fazenda.
+\item 1 ponto para cada vinícola na fazenda.
+\item 2 pontos para cada enólogo na fazenda.
+\item 3 pontos se estiver fazendo vinho do porto (ver a região de  Douros para o uso do vinho do porto).
+\item Condições climáticas de +2 até -2
+\end{itemize}
+
+\begin{quote}
+Lembrete: Cada vinhedo pode comportar apenas 1 fazendeiro e cada vinícula apenas 1 enólogo.
+\end{quote}
+
+\textbf{Valor do vinho}
+
+\begin{itemize}
+\item Qualidade do vinho +
+\item 1,3,5 de envelhecimento na adega +
+\item Opcionalmente 1 ou 2 pontos por cubo de notoriedade descartado da respectiva região do vinho produzido +
+\item 1 ponto caso o vinho seja da região de \textbf{Algarve}
+\end{itemize}
+
+\subsubsection{4) Adegas: Construa 1 adega}
+\label{sec:org317042d}
+
+Ajudam que o vinho envelheça mais, aumentando seu valor. Quanto mais velho o vinho, mais valioso se torna.
+
+\begin{itemize}
+\item Pegue o tile de adega.
+\item Pague 2 bagos (cash).
+\item Cubra um de seus depósitos e mova os vinhos existentes para a adega.
+\item Se possível coloque um cubo de notoriedade em um espaço disponível na respectiva região.
+\end{itemize}
+
+Caso não exista um vinhedo na fazenda onde a adega foi colocada, deixe o cubo de notoriedade sobre a mesma, até que um vinhedo seja adquirido e colocado nessa fazenda.
+
+\subsubsection{5) Vendas (mercado interno): Venda quantos vinhos quiser.}
+\label{sec:orgfdb5b32}
+
+Para cada vinho vendido:
+
+\begin{itemize}
+\item Coloque 1 barril em um slot vazio de sua escolha.
+\end{itemize}
+
+O vinho deve ser do mesmo tipo (branco ou tinto) e ter no mínimo o mesmo valor do referido slot.
+Uma vez vendido o barril não poderá ser movido.
+
+\begin{itemize}
+\item Opcionalmente remova 1 ou 2 cubos de notoriedade da região de produção de seu vinho.
+\end{itemize}
+
+Apenas faça isso para atingir o valor necessário para a venda, não é permitido usar o cubo sem efeito prático apenas para restringir o uso pelo oponente.
+
+\begin{itemize}
+\item Descarte o tile do vinho.
+\item Receba o valor da venda como crédito na conta do banco.
+\end{itemize}
+
+\textbf{Recupere pares de barris dos estabelecimentos locais:}
+
+Durante seu turno, antes de realizar sua ação, é possível recuperar \textbf{pares} de barris dos estabelecimentos locais, cada par deve vir do mesmo estabelecimento.
+
+Para cada par recuperado coloque 2 cubos de notoriedade em regiões diferentes do mapa a sua escolha, 1 em cada.
+
+\subsubsection{6) Exportação: Exporte quantos vinhos quiser}
+\label{sec:org93b4688}
+
+A exportação provê pontos imediatos e pontuação de final de jogo.
+
+\begin{quote}
+Onde houver pontos circulados com uma arte em verde, estes são ganhos imediatamente. Onde essa arte for roxa, são pontuação para o final do jogo.
+\end{quote}
+
+\begin{itemize}
+\item Coloque 1 barril em um slot vazio do mercado de exportação. Este deve ser no mínimo o valor indicado no slot, cubos de notoriedade são permitidos para aumentar o valor do vinho, as regras seguem confirme descrito acima em vendas.
+\item Decarte o tile de vinho.
+\end{itemize}
+
+\begin{quote}
+No jogo com 2 jogadores apenas os slots da área demarcada interna são válidos.
+\end{quote}
+
+\subsubsection{7) Banco}
+\label{sec:orgd9b10b4}
+
+\begin{itemize}
+\item Retirar seus bagos do banco: Mova seu marcador para trás o número de espaços relativo ao valor do saque e pegue este montante em bagos.
+\end{itemize}
+
+Caso atinja o valor de -2PV imediatamente perca esses pontos. Não será mais possível realizar saques até que o saldo seja novamente positivo.
+
+\begin{itemize}
+\item Depositar seus bagos no banco: Mova seu marcador para a frente o número de espaços relativo ao montante que deseja depositar e entregue seus bagos ao banco.
+\end{itemize}
+
+O valor máximo que o banco suporta são 24 bagos na conta do jogador.
+
+\begin{itemize}
+\item Investimento: Invista seus bagos no banco, o valor é indicado no tabuleiro. Na fase de manutenção receba juros pelo seu investimento como crédito no banco.
+\end{itemize}
+
+\subsubsection{8) Especialistas (Sommelier)}
+\label{sec:orga455b36}
+
+Cada especialista pode ajudá-lo em determinada característica na feira do vinho.
+
+Além disto cada um possui uma habilidade bônus que pode ser usada imediatamente. Para isso vire o tile do especialista para oseu verso e faça uso do bônus.
+
+Após passada a próxima feira vire o especialista de volta para o lado da frente, a habilidade pode ser usada novamente, ou o especialista poderá participar da feira seguinte.
+
+\subsubsection{9) Passar/Coletiva de imprensa}
+\label{sec:org8d795e9}
+
+\begin{itemize}
+\item Passe e não faça nada
+\end{itemize}
+
+ou
+
+\begin{itemize}
+\item Dê uma coletiva de imprensa.
+\end{itemize}
+
+Introduza seu vinho na próxima feira de vinhos.
+Esta ação só pode ser realizada uma única vez por feira. Caso não faça a introdução de seu vinho por meio da coletiva, deverá fazê-lo diretamente no momento da feira.
+
+\begin{itemize}
+\item Declare qual vinho será apresentado na feira.
+\item Opcionalmente remova 1 ou 2 cubos de notoriedade da região de onde o vinho é proveniente para aumentar seu valor.
+\end{itemize}
+
+Isto pode ser necessário para atingir a expectativa do magnata Bruno ou apenas para apresentar um vinho e maior valor na feira.
+
+\begin{itemize}
+\item Ganhe os pontos de feira caso seu vinho seja de valor superior a 9, ganhe pontos pelo excedente.
+\item Pegue seu tile de feira de acordo com a tabela em seu tabuleiro pessoal de jogador.
+\item Escolha um quiosque de feira vazio e coloque seu tile nele. Pegue o bônus ofertado nele e ganhe pontos de feira de acordo com as características do vinho marcadas no quiosque. Ex: Aroma (verde), aparência (azul).
+\end{itemize}
+
+\begin{quote}
+Características do vinho são trilhas na área de feira que representam os atributos de aroma, aparência, percentual de álcool e sabor e são incrementadas de acordo com o que consta no tile de previsão do tempo e com o
+uso de especialistas durante a feira.
+\end{quote}
+
+\begin{itemize}
+\item Coloque barris opcionalmente nos magnatas que consiga cumprir as exigências de apreciação do vinho. No máximo 2 dos três magnatas pode ser atendido.
+\end{itemize}
+
+Anabela: seu interesse é o tipo do vinho (branco ou tinto).
+Bruno: seu interesse é o valor do vinho.
+Carolina: seu interesse é pela região de onde o vinho é proveniente.
+
+Tendo barris em um magnata lhe permite fazer ações bônus desse magnata ao custo de um vinho qualquer.
+
+\subsection{Manutenção}
+\label{sec:orgd7fe180}
+
+\begin{itemize}
+\item Receba ou pague juros de acordo com seu investimento no banco (movimentação da conta).
+\end{itemize}
+
+Se não puder pagar, pague o que for possível com seu crédito no banco até atingir os -2PV, perca esses pontos, descarte uma vinícola, se não tiver como, descarte um vinhedo.
+Enólogos e fazendeiros movem-se opcionalmente para outras vinículas ou vinhedos em outras de suas fazendas ou caso não tenham alojamento, são descartados para o estoque geral.
+
+\begin{itemize}
+\item Pague o salário dos Enólogos. Demita todos os que não possa ou não queira pagar.
+\end{itemize}
+
+\begin{quote}
+Todos estas movimentações são feitas no banco. Bagos não são utilizados nesses casos.
+\end{quote}
+
+\subsection{Produção}
+\label{sec:org01e8077}
+
+\begin{itemize}
+\item Envelheça o vinho.
+\item Opcionalmente redistribua os empregados (Enólogos para vinícolas e fazendeiros para vinhedos).
+\item Produza vinho.
+\end{itemize}
+
+Se a qualidade, levando em consideração os modificadores como às condições climáticas for maior que 0 (zero) pegue um tile do estoque e armazene em seu depósito ou adega.
+
+\subsection{Feira do vinho}
+\label{sec:org3edc2d0}
+
+Nos anos 3, 5 e 6 temos a feira do vinho.
+
+Os jogadores que não colocaram seu tile em um quiosque na feira devem fazê-lo agora em ordem de turno, respeitando as mesmas regras da coletiva de imprensa, porém a ordem de jogo não se altera e nem é possível
+adicionar barris aos magnatas.
+
+Então ocorre a feira:
+
+\begin{itemize}
+\item Pegue todos os seus tiles de especialista e secretamente escolha o número de especialistas permitidos pelo sei tile de feira.
+\end{itemize}
+
+Só é possível usar especialistas das características presentes em seu quiosque.
+
+\begin{itemize}
+\item Simultaneamente os jogadores revelam os especialistas selecionados.
+\end{itemize}
+
+Os especialistas que apresentarem uma seta no canto inferior esquerdo de seu tile, movem a respectiva característica do vinho para cima.
+
+\begin{itemize}
+\item Receba pontos de feira de acordo com o nível das características associadas aos seus especialistas apresentados.
+
+\item Determine o ranking de acordo com o número acumulado de pontos de feira e atribua a pontuação de vitória.
+\end{itemize}
+
+Para 2 jogadores:
+
+1a feira:
+
+\begin{itemize}
+\item 1o 9PV
+\item 2o 3PV
+\end{itemize}
+
+2a feira
+
+\begin{itemize}
+\item 1o 12PV
+\item 2o 4PV
+\end{itemize}
+
+3a feira
+
+\begin{itemize}
+\item 1o 15PV
+\item 2o 5PV
+\end{itemize}
+
+Em caso de empate os pontos são divididos.
+
+Final de feira:
+
+\begin{itemize}
+\item Descarte os especialistas usados.
+\item Recupere seu tile de feira.
+\item Ajuste a ordem de turno, o último colocado da feira é agora o primeiro.
+\end{itemize}
+
+\subsection{Final do jogo e pontuação}
+\label{sec:org85f3265}
+
+Depois da terceira feira do vinho começando com o jogador inicial (último colocado na feira), cada jogador usa o benefício de um magnata, descartando 1 vinho e movendo seu barril.
+Continue até que todos os jogadores terminem suas possibilidades.
+
+É permitido usar as habilidades bônus de seus especialistas restantes.
+
+Finalmente receba pontos por:
+
+\begin{itemize}
+\item Seu balanço no banco.
+\item Maioria nas colunas de exportação (empate os pontos são divididos).
+\item Multiplicadores de final de jogo na área dos magnatas.
+\end{itemize}
+
+O jogador com mais PV é o vitorioso.
+
+Saúde!!
+\end{document}
