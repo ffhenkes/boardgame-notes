@@ -1,0 +1,91 @@
+* Vinhos: 2010 Reserve (Resumo das regras com foco em 2 jogadores)
+
+Remova aleatóriamente 2 vinhedos.
+
+Aleatóriamente selecione a ordem inicial de jogo.
+
+Em ordem selecionada cada jogador seleciona um vinhedo da região desejada, paga seu custo, ganha o bônus relacionado da região e produz 1 vinho.
+Um cubo de notoriedade é adicionado a região do vinho produzido.
+
+#+BEGIN_QUOTE
+Tudo que é adquirido do tabuleiro é pago com bagos (cash). O salário dos enólogos é pago via banco.
+#+END_QUOTE
+
+O vinho produzido leva em consideração a qualidade base do mesmo, alguns modificadores podem incrementar esse valor (vinícolas por exemplo).
+
+A ordem de turno é novamente alterada, levando em consideração a região de menor número no mapa, do menor para o maior.
+
+Os tile de previsão do tempo dirão quais condições climáticas serão enfrentadas no ano, quais características são tendência do ano para apreciação na feira e quais as preferências dos magnatas.
+
+No primeiro ano o tile 0 é utilizado onde o clima não terá impacto e os magnatas não se importam com as startups do vinho.
+
+** Início do ano
+
+Descarte o tile de previsão do tempo (obviamente não no ano 1) e coloque o marcador de impostos (marcador do turno) no espaço inicial.
+
+Em ordem de turno cada jogador seleciona uma ação.
+
+Todos iniciam o jogo no espaço central do "Quadrel" e selecionam a ação desejada.
+
+Ações adjacentes (diagonais contam) ao espaço onde se encontra o jogador são gratuitas.
+Ações não adjacentes custam 1 bago pago ao banco.
+Ações onde o meeple de outro jogador se encontre custam 1 bago, pago ao respectivo jogador.
+Ações onde esteja o marcador de impostos (marcador do turno) custam 1 bago, pago ao banco.
+
+Estes efeitos podem ocorrer simultaneamente caso coincidentes.
+Ex: Maria usa a ação onde se encontra João e lhe paga um bago, nesse local também existe o marcador de impostos, Maria também paga um bago ao banco, gastando um total de dois bagos.
+
+O jogador nunca pode executar a mesma ação novamente, o movimento para outra ação é sempre obrigatório. A exceção é no centro do "Quadrel" onde é possível permancer sem executar nenhuma ação (plan better).
+
+Quando um jogador realiza a ação de passar/coletiva de imprensa, ele seleciona a sua própria ordem de turno para a ação sub-sequente.
+
+Após a realização da segunda ação no ano o marcador passa para a fase de manutenção.
+
+** Ações
+
+1) Vinhedos: Compre quantos quiser, mas apenas 1 por região.
+
+- Pegue o vinhedo do topo da pilha da região desejada.
+- Pague o custo em bagos (cash).
+- Coloque em seu tabuleiro em um lote vazio de uma de suas fazendas, ou com outro vinhedo da mesma região do mapa e do mesmo tipo de vinho (branco ou tinto).
+
+Caso seja o primeiro vinhedo na sua fazenda, coloque seu disco na região do mapa de onde o vinhedo fora comprado. Se possível adicione um cubo de notoriedade à região.
+
+- Pegue o bônus da região caso se aplique.
+
+2) Vinícolas: Construa 1 ou 2 vinícolas
+
+Para cada vinícola construída o jogador deve:
+
+- Pegar 1 tile de vinícola.
+- Pagar 3 bagos (cash).
+- Colocar a vinícola em um lote livre em uma fazenda à sua escolha em seu tabuleiro de jogador.
+
+Cada fazenda pode ter no máximo 2 vinícolas.
+Não é obrigatório que exista um vinhedo na fazenda.
+
+Se possível adicione um cubo de notoriedade à região selecionda (caso exista um vinhedo na fazenda, dessa região), se não for, adicione o cubo à própria vinícola e aguarde o momento onde um vinhedo seja adicionado à fazenda
+para colocar esse cubo na respectiva região.
+
+3) Enólogos: Contrate 1 ou 2 Enólogos.
+
+Enólogos trabalham em vinícolas, adicionam 2 à qualidade do vinho produzido. Podem mover-se entre fazendas antes da produção.
+
+Para cada Enólogo contratado:
+
+- Pague 1 bago (cash).
+- Coloque o mesmo sobre uma vinícola, cada vinícula comporta 1 Enólogo.
+
+#+BEGIN_QUOTE
+Fazendeiros não podem ser contratados neste modo de jogo (2010 Reserve) a única forma de obte-lôs é na região de *Ribadejo*.
+#+END_QUOTE
+
+Para que as pŕoximas ações sejam melhor compreendidas, alguns conceitos precisam ser apresentados.
+
+#+BEGIN_QUOTE
+Envelhecendo e produzindo vinho:
+
+Ao final de cada ano...
+
+
+#+END_QUOTE
