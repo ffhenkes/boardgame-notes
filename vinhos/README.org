@@ -43,7 +43,7 @@ Após a realização da segunda ação no ano o marcador passa para a fase de ma
 
 ** Ações
 
-1) Vinhedos: Compre quantos quiser, mas apenas 1 por região.
+*** 1) Vinhedos: Compre quantos quiser, mas apenas 1 por região.
 
 - Pegue o vinhedo do topo da pilha da região desejada.
 - Pague o custo em bagos (cash).
@@ -53,7 +53,7 @@ Caso seja o primeiro vinhedo na sua fazenda, coloque seu disco na região do map
 
 - Pegue o bônus da região caso se aplique.
 
-2) Vinícolas: Construa 1 ou 2 vinícolas
+*** 2) Vinícolas: Construa 1 ou 2 vinícolas*
 
 Para cada vinícola construída o jogador deve:
 
@@ -67,7 +67,7 @@ Não é obrigatório que exista um vinhedo na fazenda.
 Se possível adicione um cubo de notoriedade à região selecionda (caso exista um vinhedo na fazenda, dessa região), se não for, adicione o cubo à própria vinícola e aguarde o momento onde um vinhedo seja adicionado à fazenda
 para colocar esse cubo na respectiva região.
 
-3) Enólogos: Contrate 1 ou 2 Enólogos.
+*** 3) Enólogos: Contrate 1 ou 2 Enólogos.
 
 Enólogos trabalham em vinícolas, adicionam 2 à qualidade do vinho produzido. Podem mover-se entre fazendas antes da produção.
 
@@ -80,12 +80,42 @@ Para cada Enólogo contratado:
 Fazendeiros não podem ser contratados neste modo de jogo (2010 Reserve) a única forma de obte-lôs é na região de *Ribadejo*.
 #+END_QUOTE
 
-Para que as pŕoximas ações sejam melhor compreendidas, alguns conceitos precisam ser apresentados.
+*Para que as pŕoximas ações sejam melhor compreendidas, alguns conceitos precisam ser apresentados:*
+
+
+*Envelhecendo e produzindo vinho:*
+
+Ao final de cada ano antes da produção mova dos vinhos existentes um slot para a direita em seu depósito ou adega, representando o envelhecimento.
+Quando não houver mais espaço o vinho se transforma em vinagre e é perdido.
+
+Depois disso é possível mover cada Enólogo para uma vinícola livre.
+
+Fazendeiros podem ser movidos para um vinhedo livre (ver a região de Ribadejo para o uso de fazendeiros).
+
+Então a produção de vinho é iniciada:
+
+- Calcule a qualidade do vinho.
+- Pegue um tile do número apropriado.
+- Coloque esse tile no espaço mais à esquerda de seu depósito ou adega. Com o lado de vinho branco ou tinto, conforme a produção do respectivo vinhedo.
+
+*Qualidade do Vinho*
+
+- 2 pontos para cada vinhedo na fazenda.
+- 1 ponto para cada fazendeiro na fazenda.
+- 1 ponto para cada vinícola na fazenda.
+- 2 pontos para cada enólogo na fazenda.
+- 3 pontos se estiver fazendo vinho do porto (ver a região de  Douros para o uso do vinho do porto).
+- Condições climáticas de +2 até -2
 
 #+BEGIN_QUOTE
-Envelhecendo e produzindo vinho:
-
-Ao final de cada ano...
-
-
+Lembrete: Cada vinhedo pode comportar apenas 1 fazendeiro e cada vinícula apenas 1 enólogo.
 #+END_QUOTE
+
+*Valor do vinho*
+
+- Qualidade do vinho +
+- 1,3,5 de envelhecimento na adega +
+- Opcionalmente 1 ou 2 pontos por cubo de notoriedade descartado da respectiva região do vinho produzido +
+- 1 ponto caso o vinho seja da região de *Algarve*
+
+*** 4) Adegas
