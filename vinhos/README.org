@@ -118,4 +118,52 @@ Lembrete: Cada vinhedo pode comportar apenas 1 fazendeiro e cada vinícula apena
 - Opcionalmente 1 ou 2 pontos por cubo de notoriedade descartado da respectiva região do vinho produzido +
 - 1 ponto caso o vinho seja da região de *Algarve*
 
-*** 4) Adegas
+*** 4) Adegas: Construa 1 adega
+
+Ajudam que o vinho envelheça mais, aumentando seu valor. Quanto mais velho o vinho, mais valioso se torna.
+
+- Pegue o tile de adega.
+- Pague 2 bagos (cash).
+- Cubra um de seus depósitos e mova os vinhos existentes para a adega.
+- Se possível coloque um cubo de notoriedade em um espaço disponível na respectiva região.
+
+Caso não exista um vinhedo na fazenda onde a adega foi colocada, deixe o cubo de notoriedade sobre a mesma, até que um vinhedo seja adquirido e colocado nessa fazenda.
+
+*** 5) Vendas (mercado interno): Venda quantos vinhos quiser.
+
+Para cada vinho vendido:
+
+- Coloque 1 barril em um slot vazio de sua escolha.
+
+O vinho deve ser do mesmo tipo (branco ou tinto) e ter no mínimo o mesmo valor do referido slot.
+Uma vez vendido o barril não poderá ser movido.
+
+- Opcionalmente remova 1 ou 2 cubos de notoriedade da região de produção de seu vinho.
+
+Apenas faça isso para atingir o valor necessário para a venda, não é permitido usar o cubo sem efeito prático apenas para restringir o uso pelo oponente.
+
+- Descarte o tile do vinho.
+- Receba o valor da venda como crédito na conta do banco.
+
+*Recupere pares de barris dos estabelecimentos locais:*
+
+Durante seu turno, antes de realizar sua ação, é possível recuperar *pares* de barris dos estabelecimentos locais, cada par deve vir do mesmo estabelecimento.
+
+Para cada par recuperado coloque 2 cubos de notoriedade em regiões diferentes do mapa a sua escolha, 1 em cada.
+
+*** 6) Exportação: Exporte quantos vinhos quiser
+
+A exportação provê pontos imediatos e pontuação de final de jogo.
+
+#+BEGIN_QUOTE
+Onde houver pontos circulados com uma arte em verde, estes são ganhos imediatamente. Onde essa arte for roxa, são pontuação para o final do jogo.
+#+END_QUOTE
+
+- Coloque 1 barril em um slot vazio do mercado de exportação. Este deve ser no mínimo o valor indicado no slot, cubos de notoriedade são permitidos para aumentar o valor do vinho, as regras seguem confirme descrito acima em vendas.
+- Decarte o tile de vinho.
+
+#+BEGIN_QUOTE
+No jogo com 2 jogadores apenas os slots da área demarcada interna são válidos.
+#+END_QUOTE
+
+*** 7) Banco
