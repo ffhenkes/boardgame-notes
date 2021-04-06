@@ -85,11 +85,15 @@ Nas rodadas de 1 à 3 o jogador completa sua mão para 8 cartas, uma carta da ro
 
 Uma rodada do jogo segue às seguintes etapas:
 
-1 - Melhorar o nível de Defcon: subir em o nível 1 na direção do nível 5 (paz);
+*** Melhorar o nível de Defcon:
+Subir em o nível 1 na direção do nível 5 (paz);
 
-2 - Manchetes: cada jogador revela uma carta simultâneamente e realiza o evento descrito. O evento é resolvido na ordem do valor de operação da carta, empates vão para o lado dos EUA;
+*** Manchetes:
+Cada jogador revela uma carta simultâneamente e realiza o evento descrito. O evento é resolvido na ordem do valor de operação da carta, empates vão para o lado dos EUA;
 
-3 - Turnos: os jogadores alternam os turnos de ações, jogando uma carta por turno, 6 turnos nas rodadas de 1 à 3 e 7 turnos nas rodadas de 4 à 10. O jogador da URSS sempre joga primeiro;
+***  Turnos:
+
+Os jogadores alternam os turnos de ações, jogando uma carta por turno, 6 turnos nas rodadas de 1 à 3 e 7 turnos nas rodadas de 4 à 10. O jogador da URSS sempre joga primeiro;
 
 Uma carta possui três características principais:
 
