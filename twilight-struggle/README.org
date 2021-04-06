@@ -106,9 +106,19 @@ deverá ser feita pelo oponente;
 
 Pontos de operação podem ser utilizados de algumas maneiras:
 
-- Adicionar influência: Partindo de um país *onde o jogador já possua influência no início da rodada*, é possível adicionar, em um país adjacente, um ponto de influência ao custo de um ponto de operação. Caso este país
+- *Adicionar influência*: Partindo de um país *onde o jogador já possua influência no início da rodada*, é possível adicionar, em um país adjacente, um ponto de influência ao custo de um ponto de operação. Caso este país
 seja *controlado pelo oponente*, cada ponto de influência custa 2 pontos de operação;
 
 Obs: Imediatamente ao adicionar influência em um país, verifique o controle, caso a influência mude a situação do país, aplique imediatamente o efeito. Pontos de influência são adicionados 1 à 1.
 
-- Realinhamento:
+- *Realinhamento*: Tentativa de diminuir a influência do oponente em algum país. O jogador não adiciona sua influência no país. Cada ponto de operação representa uma tentativa de realinhamento;
+
+O realinhamento é feito por uma rolagem de dados mais alguns modificadores:
+
+1 - O jogador com mais influência no país ganha +1
+2 - Cada país adjacente sob controle dos jogadores adiciona +1
+3 - País conectado à uma superpotência adiciona +1 (para o jogador com mais influência no país)
+
+Em caso de vitória nos dados + modificadores, a diferença entre os valores na rolagem e a influência no tabuleiro é aplicada removendo a influência do oponente;
+
+- *Golpe*:
