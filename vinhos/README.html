@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-05-31 Sun 00:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Fabio Favero Henkes" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgef1985f">1. Vinhos: 2010 Reserve (Resumo das regras com foco em 2 jogadores)</a>
+<ul>
+<li><a href="#orga833a2d">1.1. Início do ano</a></li>
+<li><a href="#orge48f5fc">1.2. Ações</a>
+<ul>
+<li><a href="#orge6b6a6b">1.2.1. 1) Vinhedos: Compre quantos quiser, mas apenas 1 por região.</a></li>
+<li><a href="#org5f699d4">1.2.2. 2) Vinícolas: Construa 1 ou 2 vinícolas</a></li>
+<li><a href="#org93be4d6">1.2.3. 3) Enólogos: Contrate 1 ou 2 Enólogos.</a></li>
+<li><a href="#orgb6aac44">1.2.4. 4) Adegas: Construa 1 adega</a></li>
+<li><a href="#orgc3df983">1.2.5. 5) Vendas (mercado interno): Venda quantos vinhos quiser.</a></li>
+<li><a href="#org2a18d4f">1.2.6. 6) Exportação: Exporte quantos vinhos quiser</a></li>
+<li><a href="#org3369d43">1.2.7. 7) Banco</a></li>
+<li><a href="#orga35e7b2">1.2.8. 8) Especialistas (Sommelier)</a></li>
+<li><a href="#orge2f9de0">1.2.9. 9) Passar/Coletiva de imprensa</a></li>
+</ul>
+</li>
+<li><a href="#org313195d">1.3. Manutenção</a></li>
+<li><a href="#org54615a6">1.4. Produção</a></li>
+<li><a href="#org6f050f0">1.5. Feira do vinho</a></li>
+<li><a href="#org41cee89">1.6. Final do jogo e pontuação</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgef1985f" class="outline-2">
+<h2 id="orgef1985f"><span class="section-number-2">1</span> Vinhos: 2010 Reserve (Resumo das regras com foco em 2 jogadores)</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Remova aleatóriamente 2 vinhedos.
+</p>
+
+<p>
+Aleatóriamente selecione a ordem inicial de jogo.
+</p>
+
+<p>
+Em ordem selecionada cada jogador seleciona um vinhedo da região desejada, paga seu custo, ganha o bônus relacionado da região e produz 1 vinho.
+Um cubo de notoriedade é adicionado a região do vinho produzido.
+</p>
+
+<blockquote>
+<p>
+Tudo que é adquirido do tabuleiro é pago com bagos (cash). O salário dos enólogos é pago via banco.
+</p>
+</blockquote>
+
+<p>
+O vinho produzido leva em consideração a qualidade base do mesmo, alguns modificadores podem incrementar esse valor (vinícolas por exemplo).
+</p>
+
+<p>
+A ordem de turno é novamente alterada, levando em consideração a região de menor número no mapa, do menor para o maior.
+</p>
+
+<p>
+Os tile de previsão do tempo dirão quais condições climáticas serão enfrentadas no ano, quais características são tendência do ano para apreciação na feira e quais as preferências dos magnatas.
+</p>
+
+<p>
+No primeiro ano o tile 0 é utilizado onde o clima não terá impacto e os magnatas não se importam com as startups do vinho.
+</p>
+</div>
+
+<div id="outline-container-orga833a2d" class="outline-3">
+<h3 id="orga833a2d"><span class="section-number-3">1.1</span> Início do ano</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Descarte o tile de previsão do tempo (obviamente não no ano 1) e coloque o marcador de impostos (marcador do turno) no espaço inicial.
+</p>
+
+<p>
+Em ordem de turno cada jogador seleciona uma ação.
+</p>
+
+<p>
+Todos iniciam o jogo no espaço central do "Quadrel" e selecionam a ação desejada.
+</p>
+
+<p>
+Ações adjacentes (diagonais contam) ao espaço onde se encontra o jogador são gratuitas.
+Ações não adjacentes custam 1 bago pago ao banco.
+Ações onde o meeple de outro jogador se encontre custam 1 bago, pago ao respectivo jogador.
+Ações onde esteja o marcador de impostos (marcador do turno) custam 1 bago, pago ao banco.
+</p>
+
+<p>
+Estes efeitos podem ocorrer simultaneamente caso coincidentes.
+Ex: Maria usa a ação onde se encontra João e lhe paga um bago, nesse local também existe o marcador de impostos, Maria também paga um bago ao banco, gastando um total de dois bagos.
+</p>
+
+<p>
+O jogador nunca pode executar a mesma ação novamente, o movimento para outra ação é sempre obrigatório. A exceção é no centro do "Quadrel" onde é possível permancer sem executar nenhuma ação (plan better).
+</p>
+
+<p>
+Quando um jogador realiza a ação de passar/coletiva de imprensa, ele seleciona a sua própria ordem de turno para a ação sub-sequente.
+</p>
+
+<p>
+Após a realização da segunda ação no ano o marcador passa para a fase de manutenção.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge48f5fc" class="outline-3">
+<h3 id="orge48f5fc"><span class="section-number-3">1.2</span> Ações</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orge6b6a6b" class="outline-4">
+<h4 id="orge6b6a6b"><span class="section-number-4">1.2.1</span> 1) Vinhedos: Compre quantos quiser, mas apenas 1 por região.</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li>Pegue o vinhedo do topo da pilha da região desejada.</li>
+<li>Pague o custo em bagos (cash).</li>
+<li>Coloque em seu tabuleiro em um lote vazio de uma de suas fazendas, ou com outro vinhedo da mesma região do mapa e do mesmo tipo de vinho (branco ou tinto).</li>
+</ul>
+
+<p>
+Caso seja o primeiro vinhedo na sua fazenda, coloque seu disco na região do mapa de onde o vinhedo fora comprado. Se possível adicione um cubo de notoriedade à região.
+</p>
+
+<ul class="org-ul">
+<li>Pegue o bônus da região caso se aplique.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5f699d4" class="outline-4">
+<h4 id="org5f699d4"><span class="section-number-4">1.2.2</span> 2) Vinícolas: Construa 1 ou 2 vinícolas</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+Para cada vinícola construída o jogador deve:
+</p>
+
+<ul class="org-ul">
+<li>Pegar 1 tile de vinícola.</li>
+<li>Pagar 3 bagos (cash).</li>
+<li>Colocar a vinícola em um lote livre em uma fazenda à sua escolha em seu tabuleiro de jogador.</li>
+</ul>
+
+<p>
+Cada fazenda pode ter no máximo 2 vinícolas.
+Não é obrigatório que exista um vinhedo na fazenda.
+</p>
+
+<p>
+Se possível adicione um cubo de notoriedade à região selecionda (caso exista um vinhedo na fazenda, dessa região), se não for, adicione o cubo à própria vinícola e aguarde o momento onde um vinhedo seja adicionado à fazenda
+para colocar esse cubo na respectiva região.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org93be4d6" class="outline-4">
+<h4 id="org93be4d6"><span class="section-number-4">1.2.3</span> 3) Enólogos: Contrate 1 ou 2 Enólogos.</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<p>
+Enólogos trabalham em vinícolas, adicionam 2 à qualidade do vinho produzido. Podem mover-se entre fazendas antes da produção.
+</p>
+
+<p>
+Para cada Enólogo contratado:
+</p>
+
+<ul class="org-ul">
+<li>Pague 1 bago (cash).</li>
+<li>Coloque o mesmo sobre uma vinícola, cada vinícula comporta 1 Enólogo.</li>
+</ul>
+
+<blockquote>
+<p>
+Fazendeiros não podem ser contratados neste modo de jogo (2010 Reserve) a única forma de obte-lôs é na região de <b>Ribadejo</b>.
+</p>
+</blockquote>
+
+<p>
+<b>Para que as pŕoximas ações sejam melhor compreendidas, alguns conceitos precisam ser apresentados:</b>
+</p>
+
+
+<p>
+<b>Envelhecendo e produzindo vinho:</b>
+</p>
+
+<p>
+Ao final de cada ano antes da produção mova dos vinhos existentes um slot para a direita em seu depósito ou adega, representando o envelhecimento.
+Quando não houver mais espaço o vinho se transforma em vinagre e é perdido.
+</p>
+
+<p>
+Depois disso é possível mover cada Enólogo para uma vinícola livre.
+</p>
+
+<p>
+Fazendeiros podem ser movidos para um vinhedo livre (ver a região de Ribadejo para o uso de fazendeiros).
+</p>
+
+<p>
+Então a produção de vinho é iniciada:
+</p>
+
+<ul class="org-ul">
+<li>Calcule a qualidade do vinho.</li>
+<li>Pegue um tile do número apropriado.</li>
+<li>Coloque esse tile no espaço mais à esquerda de seu depósito ou adega. Com o lado de vinho branco ou tinto, conforme a produção do respectivo vinhedo.</li>
+</ul>
+
+<p>
+<b>Qualidade do Vinho</b>
+</p>
+
+<ul class="org-ul">
+<li>2 pontos para cada vinhedo na fazenda.</li>
+<li>1 ponto para cada fazendeiro na fazenda.</li>
+<li>1 ponto para cada vinícola na fazenda.</li>
+<li>2 pontos para cada enólogo na fazenda.</li>
+<li>3 pontos se estiver fazendo vinho do porto (ver a região de  Douros para o uso do vinho do porto).</li>
+<li>Condições climáticas de +2 até -2</li>
+</ul>
+
+<blockquote>
+<p>
+Lembrete: Cada vinhedo pode comportar apenas 1 fazendeiro e cada vinícula apenas 1 enólogo.
+</p>
+</blockquote>
+
+<p>
+<b>Valor do vinho</b>
+</p>
+
+<ul class="org-ul">
+<li>Qualidade do vinho +</li>
+<li>1,3,5 de envelhecimento na adega +</li>
+<li>Opcionalmente 1 ou 2 pontos por cubo de notoriedade descartado da respectiva região do vinho produzido +</li>
+<li>1 ponto caso o vinho seja da região de <b>Algarve</b></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb6aac44" class="outline-4">
+<h4 id="orgb6aac44"><span class="section-number-4">1.2.4</span> 4) Adegas: Construa 1 adega</h4>
+<div class="outline-text-4" id="text-1-2-4">
+<p>
+Ajudam que o vinho envelheça mais, aumentando seu valor. Quanto mais velho o vinho, mais valioso se torna.
+</p>
+
+<ul class="org-ul">
+<li>Pegue o tile de adega.</li>
+<li>Pague 2 bagos (cash).</li>
+<li>Cubra um de seus depósitos e mova os vinhos existentes para a adega.</li>
+<li>Se possível coloque um cubo de notoriedade em um espaço disponível na respectiva região.</li>
+</ul>
+
+<p>
+Caso não exista um vinhedo na fazenda onde a adega foi colocada, deixe o cubo de notoriedade sobre a mesma, até que um vinhedo seja adquirido e colocado nessa fazenda.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc3df983" class="outline-4">
+<h4 id="orgc3df983"><span class="section-number-4">1.2.5</span> 5) Vendas (mercado interno): Venda quantos vinhos quiser.</h4>
+<div class="outline-text-4" id="text-1-2-5">
+<p>
+Para cada vinho vendido:
+</p>
+
+<ul class="org-ul">
+<li>Coloque 1 barril em um slot vazio de sua escolha.</li>
+</ul>
+
+<p>
+O vinho deve ser do mesmo tipo (branco ou tinto) e ter no mínimo o mesmo valor do referido slot.
+Uma vez vendido o barril não poderá ser movido.
+</p>
+
+<ul class="org-ul">
+<li>Opcionalmente remova 1 ou 2 cubos de notoriedade da região de produção de seu vinho.</li>
+</ul>
+
+<p>
+Apenas faça isso para atingir o valor necessário para a venda, não é permitido usar o cubo sem efeito prático apenas para restringir o uso pelo oponente.
+</p>
+
+<ul class="org-ul">
+<li>Descarte o tile do vinho.</li>
+<li>Receba o valor da venda como crédito na conta do banco.</li>
+</ul>
+
+<p>
+<b>Recupere pares de barris dos estabelecimentos locais:</b>
+</p>
+
+<p>
+Durante seu turno, antes de realizar sua ação, é possível recuperar <b>pares</b> de barris dos estabelecimentos locais, cada par deve vir do mesmo estabelecimento.
+</p>
+
+<p>
+Para cada par recuperado coloque 2 cubos de notoriedade em regiões diferentes do mapa a sua escolha, 1 em cada.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2a18d4f" class="outline-4">
+<h4 id="org2a18d4f"><span class="section-number-4">1.2.6</span> 6) Exportação: Exporte quantos vinhos quiser</h4>
+<div class="outline-text-4" id="text-1-2-6">
+<p>
+A exportação provê pontos imediatos e pontuação de final de jogo.
+</p>
+
+<blockquote>
+<p>
+Onde houver pontos circulados com uma arte em verde, estes são ganhos imediatamente. Onde essa arte for roxa, são pontuação para o final do jogo.
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li>Coloque 1 barril em um slot vazio do mercado de exportação. Este deve ser no mínimo o valor indicado no slot, cubos de notoriedade são permitidos para aumentar o valor do vinho, as regras seguem confirme descrito acima em vendas.</li>
+<li>Decarte o tile de vinho.</li>
+</ul>
+
+<blockquote>
+<p>
+No jogo com 2 jogadores apenas os slots da área demarcada interna são válidos.
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org3369d43" class="outline-4">
+<h4 id="org3369d43"><span class="section-number-4">1.2.7</span> 7) Banco</h4>
+<div class="outline-text-4" id="text-1-2-7">
+<ul class="org-ul">
+<li>Retirar seus bagos do banco: Mova seu marcador para trás o número de espaços relativo ao valor do saque e pegue este montante em bagos.</li>
+</ul>
+
+<p>
+Caso atinja o valor de -2PV imediatamente perca esses pontos. Não será mais possível realizar saques até que o saldo seja novamente positivo.
+</p>
+
+<ul class="org-ul">
+<li>Depositar seus bagos no banco: Mova seu marcador para a frente o número de espaços relativo ao montante que deseja depositar e entregue seus bagos ao banco.</li>
+</ul>
+
+<p>
+O valor máximo que o banco suporta são 24 bagos na conta do jogador.
+</p>
+
+<ul class="org-ul">
+<li>Investimento: Invista seus bagos no banco, o valor é indicado no tabuleiro. Na fase de manutenção receba juros pelo seu investimento como crédito no banco.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga35e7b2" class="outline-4">
+<h4 id="orga35e7b2"><span class="section-number-4">1.2.8</span> 8) Especialistas (Sommelier)</h4>
+<div class="outline-text-4" id="text-1-2-8">
+<p>
+Cada especialista pode ajudá-lo em determinada característica na feira do vinho.
+</p>
+
+<p>
+Além disto cada um possui uma habilidade bônus que pode ser usada imediatamente. Para isso vire o tile do especialista para oseu verso e faça uso do bônus.
+</p>
+
+<p>
+Após passada a próxima feira vire o especialista de volta para o lado da frente, a habilidade pode ser usada novamente, ou o especialista poderá participar da feira seguinte.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge2f9de0" class="outline-4">
+<h4 id="orge2f9de0"><span class="section-number-4">1.2.9</span> 9) Passar/Coletiva de imprensa</h4>
+<div class="outline-text-4" id="text-1-2-9">
+<ul class="org-ul">
+<li>Passe e não faça nada</li>
+</ul>
+
+<p>
+ou
+</p>
+
+<ul class="org-ul">
+<li>Dê uma coletiva de imprensa.</li>
+</ul>
+
+<p>
+Introduza seu vinho na próxima feira de vinhos.
+Esta ação só pode ser realizada uma única vez por feira. Caso não faça a introdução de seu vinho por meio da coletiva, deverá fazê-lo diretamente no momento da feira.
+</p>
+
+<ul class="org-ul">
+<li>Declare qual vinho será apresentado na feira.</li>
+<li>Opcionalmente remova 1 ou 2 cubos de notoriedade da região de onde o vinho é proveniente para aumentar seu valor.</li>
+</ul>
+
+<p>
+Isto pode ser necessário para atingir a expectativa do magnata Bruno ou apenas para apresentar um vinho e maior valor na feira.
+</p>
+
+<ul class="org-ul">
+<li>Ganhe os pontos de feira caso seu vinho seja de valor superior a 9, ganhe pontos pelo excedente.</li>
+<li>Pegue seu tile de feira de acordo com a tabela em seu tabuleiro pessoal de jogador.</li>
+<li>Escolha um quiosque de feira vazio e coloque seu tile nele. Pegue o bônus ofertado nele e ganhe pontos de feira de acordo com as características do vinho marcadas no quiosque. Ex: Aroma (verde), aparência (azul).</li>
+</ul>
+
+<blockquote>
+<p>
+Características do vinho são trilhas na área de feira que representam os atributos de aroma, aparência, percentual de álcool e sabor e são incrementadas de acordo com o que consta no tile de previsão do tempo e com o
+uso de especialistas durante a feira.
+</p>
+</blockquote>
+
+<ul class="org-ul">
+<li>Coloque barris opcionalmente nos magnatas que consiga cumprir as exigências de apreciação do vinho. No máximo 2 dos três magnatas pode ser atendido.</li>
+</ul>
+
+<p>
+Anabela: seu interesse é o tipo do vinho (branco ou tinto).
+Bruno: seu interesse é o valor do vinho.
+Carolina: seu interesse é pela região de onde o vinho é proveniente.
+</p>
+
+<p>
+Tendo barris em um magnata lhe permite fazer ações bônus desse magnata ao custo de um vinho qualquer.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org313195d" class="outline-3">
+<h3 id="org313195d"><span class="section-number-3">1.3</span> Manutenção</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Receba ou pague juros de acordo com seu investimento no banco (movimentação da conta).</li>
+</ul>
+
+<p>
+Se não puder pagar, pague o que for possível com seu crédito no banco até atingir os -2PV, perca esses pontos, descarte uma vinícola, se não tiver como, descarte um vinhedo.
+Enólogos e fazendeiros movem-se opcionalmente para outras vinículas ou vinhedos em outras de suas fazendas ou caso não tenham alojamento, são descartados para o estoque geral.
+</p>
+
+<ul class="org-ul">
+<li>Pague o salário dos Enólogos. Demita todos os que não possa ou não queira pagar.</li>
+</ul>
+
+<blockquote>
+<p>
+Todos estas movimentações são feitas no banco. Bagos não são utilizados nesses casos.
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org54615a6" class="outline-3">
+<h3 id="org54615a6"><span class="section-number-3">1.4</span> Produção</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Envelheça o vinho.</li>
+<li>Opcionalmente redistribua os empregados (Enólogos para vinícolas e fazendeiros para vinhedos).</li>
+<li>Produza vinho.</li>
+</ul>
+
+<p>
+Se a qualidade, levando em consideração os modificadores como às condições climáticas for maior que 0 (zero) pegue um tile do estoque e armazene em seu depósito ou adega.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6f050f0" class="outline-3">
+<h3 id="org6f050f0"><span class="section-number-3">1.5</span> Feira do vinho</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Nos anos 3, 5 e 6 temos a feira do vinho.
+</p>
+
+<p>
+Os jogadores que não colocaram seu tile em um quiosque na feira devem fazê-lo agora em ordem de turno, respeitando as mesmas regras da coletiva de imprensa, porém a ordem de jogo não se altera e nem é possível
+adicionar barris aos magnatas.
+</p>
+
+<p>
+Então ocorre a feira:
+</p>
+
+<ul class="org-ul">
+<li>Pegue todos os seus tiles de especialista e secretamente escolha o número de especialistas permitidos pelo sei tile de feira.</li>
+</ul>
+
+<p>
+Só é possível usar especialistas das características presentes em seu quiosque.
+</p>
+
+<ul class="org-ul">
+<li>Simultaneamente os jogadores revelam os especialistas selecionados.</li>
+</ul>
+
+<p>
+Os especialistas que apresentarem uma seta no canto inferior esquerdo de seu tile, movem a respectiva característica do vinho para cima.
+</p>
+
+<ul class="org-ul">
+<li>Receba pontos de feira de acordo com o nível das características associadas aos seus especialistas apresentados.</li>
+
+<li>Determine o ranking de acordo com o número acumulado de pontos de feira e atribua a pontuação de vitória.</li>
+</ul>
+
+<p>
+Para 2 jogadores:
+</p>
+
+<p>
+1a feira:
+</p>
+
+<ul class="org-ul">
+<li>1o 9PV</li>
+<li>2o 3PV</li>
+</ul>
+
+<p>
+2a feira
+</p>
+
+<ul class="org-ul">
+<li>1o 12PV</li>
+<li>2o 4PV</li>
+</ul>
+
+<p>
+3a feira
+</p>
+
+<ul class="org-ul">
+<li>1o 15PV</li>
+<li>2o 5PV</li>
+</ul>
+
+<p>
+Em caso de empate os pontos são divididos.
+</p>
+
+<p>
+Final de feira:
+</p>
+
+<ul class="org-ul">
+<li>Descarte os especialistas usados.</li>
+<li>Recupere seu tile de feira.</li>
+<li>Ajuste a ordem de turno, o último colocado da feira é agora o primeiro.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org41cee89" class="outline-3">
+<h3 id="org41cee89"><span class="section-number-3">1.6</span> Final do jogo e pontuação</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+Depois da terceira feira do vinho começando com o jogador inicial (último colocado na feira), cada jogador usa o benefício de um magnata, descartando 1 vinho e movendo seu barril.
+Continue até que todos os jogadores terminem suas possibilidades.
+</p>
+
+<p>
+É permitido usar as habilidades bônus de seus especialistas restantes.
+</p>
+
+<p>
+Finalmente receba pontos por:
+</p>
+
+<ul class="org-ul">
+<li>Seu balanço no banco.</li>
+<li>Maioria nas colunas de exportação (empate os pontos são divididos).</li>
+<li>Multiplicadores de final de jogo na área dos magnatas.</li>
+</ul>
+
+<p>
+O jogador com mais PV é o vitorioso.
+</p>
+
+<p>
+Saúde!!
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Fabio Favero Henkes</p>
+<p class="date">Created: 2020-05-31 Sun 00:58</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

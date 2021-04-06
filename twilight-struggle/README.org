@@ -1,0 +1,114 @@
+* Twilight Struggle
+
+** Preparação
+
+- 3 decks: início, meio e fim da guerra
+
+Embaralhar o deck de início da guerra e distribuir 8 cartas para cada jogador;
+
+Cada jogador pode analisar sua mão antes do próximo passo;
+
+O jogador da URSS é o primeiro a distribuir seus 15 pontos de influência;
+
+- 1 Síria;
+- 1 Iraque;
+- 3 Coréia do Norte;
+- 3 Alemanha Oriental;
+- 1 Finlândia;
+- Outros 6 pontos distribuídos em qualquer lugar da Europa Oriental (roxo de tonalidade mais clara);
+
+O jogador do EUA distribui seus 23 pontos de influência;
+
+- 1 Israel;
+- 1 Irã;
+- 1 Coréia do Sul;
+- 1 Japão;
+- 1 Filipinas;
+- 4 Austrália;
+- 1 Panamá;
+- 1 África do Sul;
+- 5 Reino Unido;
+- Outros 7 pontos distribuídos em qualquer lugar da Europa Ocidental (roxo de tonalidade mais escura);
+
+Posicionar os marcadores de corrida espacial, turno, VP na posição 0 e defcon na posição 5;
+
+** Mapa
+
+Dividido em 6 regiões políticas;
+
+- América Central na cor verde, tom claro e América do Sul também na cor verde, tom escuro;
+
+- Europa na cor roxa, sendo a parte ocidental em tom escuro e oriental em tom claro (por questões políticas Canadá e Turquia fazem parte da Europa);
+
+- Oriente Médio na cor azul (por questões políticas Egito e Líbia fazem parte do Oriente Médio);
+
+- África na cor amarela;
+
+- Ásia na cor laranja;
+
+- Sudeste da Ásia, também na cor laranja em em tom mais claro;
+
+Cada país, ou bloco de países, é representado no mapa por um espaço retangular com duas seções à direita e à esquerda;
+
+Cada espaço contém um número que representa a *estabilidade*, *independência* ou *nível de poder* daquele país;
+
+Alguns países possuem o nome com o fundo azul e outros com o fundo amarelo;
+
+Países com fundo azul são ditos países disputados ou territórios de batalha, são importantes em termos de pontuação da partida;
+
+Ainda existem dois espaços especiais que representam as superpotências EUA e URSS;
+
+Os países são conectados por meio de linhas que representam adjacência;
+
+Uma linha marrom representa adjacência de países dentro de uma mesma região, uma linha tracejada vermelha representa adjacência de países entre regiões diferentes e uma linha preta representa adjacência com uma superpotência (EUA/URSS);
+
+Cada país pode estar em um de dois estados: Controlado ou Não controlado;
+
+- Controlado: quando o número que representa a estabilidade foi atingido pela diferença entre às influências políticas no país;
+
+- Não controlado; quando o número de estabilidade não foi alcançado;
+
+Ex:
+
+Israel possui um número de estabilidade 4, se os EUA possui uma ficha de influência de valor 1 e a URSS possui uma ficha de valor 5, (5 - 1 = 4) este país *é controlado* pela URSS. Caso o saldo fosse inferior a 4 este país então
+*não seria controlado*;
+
+Para indicar o controle de determinado país, a ficha política de quem o controla deve ser colocada com o lado escuro para cima (azul para os EUA e vermelho para a URSS);
+
+** Rodadas
+
+O jogo é dividido em 10 rodadas;
+
+No ínicio da guerra serão 6 turnos de ação, a partir dos meados da guerra 7 turnos de ação, nessa parte misturamos ao deck atual as cartas de meados da guerra e nas 3 rodadas finais é misturado o deck de final da guerra;
+
+Nas rodadas de 1 à 3 o jogador completa sua mão para 8 cartas, uma carta da rodada anterior pode ser mantida, nas rodadas de 4 à 10 o jogador completa sua mão para 9 cartas, uma carta da rodada anterior pode ser mantida;
+
+Uma rodada do jogo segue às seguintes etapas:
+
+1 - Melhorar o nível de Defcon: subir em o nível 1 na direção do nível 5 (paz);
+
+2 - Manchetes: cada jogador revela uma carta simultâneamente e realiza o evento descrito. O evento é resolvido na ordem do valor de operação da carta, empates vão para o lado dos EUA;
+
+3 - Turnos: os jogadores alternam os turnos de ações, jogando uma carta por turno, 6 turnos nas rodadas de 1 à 3 e 7 turnos nas rodadas de 4 à 10. O jogador da URSS sempre joga primeiro;
+
+Uma carta possui três características principais:
+
+- Um alinhamento, que pode ser com os EUA (estrela branca), URSS (estrela vermelha) ou neutra (estrela meio branca, meio vermelha);
+
+- Um valor de pontos de operação;
+
+- Um evento;
+
+Caso o jogador utilize uma carta com alinhamento da superpotência que representa ou neutra, este pode escolher entre usar os pontos de operação ou executar o evento;
+
+Caso a carta selecionada tenha alinhamento com a superpotência do seu oponente, este só pode utilizar os pontos de operação e o evento acontence obrigatóriamente para o oponente, qualquer escolha orientada pelo evento
+deverá ser feita pelo oponente;
+
+Pontos de operação podem ser utilizados de algumas maneiras:
+
+- Adicionar influência: Partindo de um país *onde o jogador já possua influência no início da rodada*, é possível adicionar, em um país adjacente, um ponto de influência ao custo de um ponto de operação. Caso este país
+seja *controlado pelo oponente*, cada ponto de influência custa 2 pontos de operação;
+
+Obs: Imediatamente ao adicionar influência em um país, verifique o controle, caso a influência mude a situação do país, aplique imediatamente o efeito. Pontos de influência são adicionados 1 à 1.
+
+- Realinhamento:
