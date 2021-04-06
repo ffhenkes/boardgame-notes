@@ -121,4 +121,115 @@ O realinhamento é feito por uma rolagem de dados mais alguns modificadores:
 
 Em caso de vitória nos dados + modificadores, a diferença entre os valores na rolagem e a influência no tabuleiro é aplicada removendo a influência do oponente;
 
-- *Golpe*:
+- *Golpe*: Tentativa de mudança da composição de governo do país. O jogador propondo o golpe *NÃO* precisa ter influência no país, apenas seu oponente. O golpe é financiado pelo valor de operação da carta.
+
+Para que um golpe seja bem sucedido, o jogador deve fazer uma rolagem de dado e este valor, somado ao valor de pontos de operação de sua carta, deverá atingir o dobro do valor de estabilidade do país alvo.
+
+Sendo bem sucedido, a diferença entre o número alcançado na rolagem + operação e o número de estabilidade do país (dobrado) é retirado de influência de seu oponente, o excedente disso é então transformado na
+sua própria influência, podendo reverter completamente o cenário político do país em questão (até mesmo obtendo o controle).
+
+Ex:
+
+O Irã tem estabilidade de 2 o jogador do EUA possui 1 de influência no país, o jogador da URSS executa um golpe usando uma carta com valor de operação 3, a rolagem executada também é de 3.
+
+A diferença entre a estabilidade dobrada do Irã (2 x 2 = 4) e a rolagem + pontos de operação da carta do jogador da URSS (3 + 3 = 6) é de 2 (6 - 4 = 2), ou seja o golpe é bem sucedido e 2 influências podem ser alteradas no
+país.
+
+Primeiramente o jogador da URSS utiliza um ponto para remover a influência do jogador dos EUA que é de 1, sendo então removida completamente a influência, o jogador da URSS começa a adicionar a sua pŕopria
+influência a partir do valor restante de 1. O Irã agora possui 1 de influência da URSS após o golpe.
+
+Um golpe é considerado uma operação militar, portanto o valor dos pontos de operação da carta determina o avanço na trilha de operações militares para o jogador.
+
+Caso o país onde o golpe foi efetuado seja um país disputado (tarja azul no nome) o nível de Defcon aumenta em 1.
+
+- *Corrida Espacial*: Uma carta qualquer pode ser usada para financiar a corrida espacia. Cada espaço da corrida espacial possui um requisito mínimo de pontos de operação necessários e um valor em um intervalo que deve
+ser alcançado na rolagem do dado.
+
+O espaço pode conferir um bônus de pontuação, ou um efeito de jogo.
+
+A pontuação mostrada à esquerda é válida apenas para o primeiro jogador que alcançar o respectivo espaço na corrida, o próximo ficará com a pontuação à direita.
+
+O bônus de efeito de jogo é válido para o jogador que estiver sozinho no espaço da corrida espacial, quando o oponente o alcançar o efeito não é mais válido.
+
+A corrida espacial só pode ser patrocinada 1 vez por turno. Existem efeitos que flexibilizam essa regra.
+
+Obs: O marcador de pontuação funciona como um "cabo de guerra", ao marcar determinado número de pontos, o marcador avança em direção ao lado que marcou a pontuação.
+
+*** Eventos
+
+Cartas afiliadas à uma potência o jogador pode escolher entre executar o evento, ou usar os pontos de operação;
+
+Caso o jogador seja de outra afiliação ele deverá usar os pontos de operação em sua jogada, porém o efeito do evento ocorre obrigatóriamente. O jogador oponente é quem faz qualquer escolha determinada pelo efeito do
+evento.
+
+Se a carta dor jogada na corrida espacial, o efeito não ocorre.
+
+Cartas não afiliadas ou neutras, o jogador sempre poderá escolher entre usar os pontos de operação ou executar o evento.
+
+Algumas cartas são removidas do jogo após a execução do evento, essas cartas possuem um '*'.
+
+Certas cartas são gatilhos para outros acontecimentos e vêm com seu título sublinhado. Estas cartas mantém seu efeito ativo no jogo, marcadores acompanham esses cartas para servirem de lembrete.
+
+A carta da China começa aberta com o jogador da URSS e lhe dá um bônus. Após ser utilizada passa fechada para o jogador dos EUA utilizar em um turno subsequente. Esse movimento representa a mudança de posição
+da China durante a guerra fria.
+
+Cartas de pontuação das regiões também são conseiderados eventos, são neutras e não possuem pontos de operação. Ao final de uma rodada é possível guardar uma carta para a pŕoxima, cartas de pontuação *NÃO* podem
+ser mantidas de uma rodada para outra.
+
+
+*** Defcon
+
+Mede a tensão nuclear durante a partida.
+
+Começa no nível mais alto (paz) 5 e oscila para baixo em direção à guerra conforme ações dos jogadores. Toda nova rodada faz que o marcador volte um nível em direção à paz.
+
+Caso chegue ao nível 1 o jogador que iniciou a guerra é derrotado imediatamente.
+
+Golpes em países disputados fazem o nível de Defcon baixar em direção à guerra.
+
+Ao chegar nos níveis 4, 3 e 2 um efeito se aplica, conforme descrito no tabuleiro, ao subir novamente o nível o efeito é cancelado.
+
+*** Operações Militares
+
+Ao final de cada rodada cada um dos jogadores deverá ter feito um certo número de operações militares, se falhar perde pontos de vitória para seu oponente.
+
+O número de operações militares necessárias em cada rodada é o nível que se encontra o Defcon. Se os dois jogadores perderem pontos, marque o total líquido.
+
+Eventos de cartas de guerra também contam como operações militares, testes de realinhamento *NÃO* contam.
+
+*** Cartas de vitória
+
+- Presença: caso o jogador controle pelo menos um país na região;
+
+- Predominância: o jogador controla mais países e nações disputadas que seu oponente. Pelo menos um país e uma nação disputada precisa ser controlado;
+
+- Controle: o jogador controla todos os países disputados da região e controla mais países que o oponente;
+
+Modificadores:
+
++1 para países controlados adjacentes a superpotência do oponente;
+
++1 para cada país disputado controlado na respectiva região;
+
+Faz-se a soma desses critérios e a diferença é marcada para o jogador que obter a maior pontuação.
+
+*** Condição de vitória
+
+- Automática: quando um jogador atinge 20 VPs;
+
+- Pontuação na Europa: quando um jogador obtem o controle da Europa;
+
+- Guerra Nuclear: o jogador que provocar a guerra nuclear levando o nível Defcon para 1 é imediatamente derrotado;
+
+
+Caso nenhuma das condições seja atingida até o final das 10 rodadas.
+
+Todas as regiões são então pontuadas, caso algum jogador obtenha o controle da Europa é o vencedor.
+
+Caso algum jogador chegue a 20 pontos, nesse momento a vitória automática não é considerada.
+
+A Ásia é pontuada como uma única região, incluindo o sudeste asiático.
+
+Quem obtiver mais pontos vence.
+
+Caso o marcador termine no centro, há um empate.
