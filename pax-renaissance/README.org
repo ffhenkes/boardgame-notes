@@ -1,0 +1,237 @@
+* PAX RENAISSANCE (2 jogadores)
+
+** AÇÕES (2 por turno)
+
+*** COMPRAR UMA CARTA
+
+Coloque uma carta do mercado em sua mão. Adicione 1 Florin para cada carta na mesma linha à esquerda da carta que estiver comprando (ou na outra linha, caso alguma carta esteja faltando).
+Pegue qualquer quantidade de Florins que estiverem por ventura na carta que foi comprada.
+
+- Se vc colocar um Florin em uma determinada carta do mercado, não pode mais comprá-la esse turno (na sua próxima ação).
+
+- Nunca é possível ter mais que 2 cartas na mão.
+
+*** JOGANDO UMA CARTA DA MÃO E COLOCANDO AGENTES
+
+Baixe uma carta da sua mão em seu Tableau, de acordo com a orientação da carta (leste ou oeste).
+
+Caso a carta jogada tiver um ícone de bomba, deve-se primeiramente decidir se o evento /one-shot/ ocorre.
+
+A colocação de agentes é opcional, pode-se colocar todos, alguns ou nenhum deles.
+
+Exceção: No caso de o /one-shot/ ser uma guerra, civil ou religiosa, deve-se obrigatóriamente colocar os agentes Cavalo, Torre e/ou Peões como atacantes na batalha.
+
+- Se for colocado um Cavalo, Torre ou Peão onde já houver outro agente (não pirata), este deve ser reprimido pelo valor de 1 Florin.
+
+- Se for adicionado um pirata onde já existir um outro pirata ou mercador, mate-o de graça (peça volta para o estoque).
+
+*** VENDER UMA CARTA
+
+Discarte uma carta de sua mão ou de seu tableu e ganhe 2 Florins.
+
+*** EXECUTAR OPERAÇÕES (LESTE/OESTE)
+
+No máximo uma vez por turno é possível executar uma operação em cada carta de seu tableu em determinado sentido (leste/oeste), em qualquer ordem que desejar.
+
+*** PERCORRA A ROTA COMERCIAL (LESTE/OESTE)
+
+No máximo uma vez por turno é possível percorrer uma das rotas comerciais a sua escolha. Adicione 1 Florin (2 jogadores) do Banco (China) à carta virada para baixo no ínicio do mercado escolhido.
+
+O total de Florins existente na carta é chamado Lucro.
+
+O jogador que iniciou a rota (escolheu essa ação) recebe 1 Florin.
+
+Trace a rota desejada a partir do seu início, dependendo de qual delas (linha preta/leste ou branca/oeste), um ponto não bloqueado (rota atual).
+
+Todos os mercadores ao longo da rota recebem 1 Florin cada até que o lucro termine.
+
+- Caso haja um pirata na rota o Florin é descartado para o banco (China).
+
+- Caso acabarem os Florins a rota para imediatamente.
+
+- Cada carta pela qual a rota atravessou faz um recrutamento (Levy), um token de Cavalo ou Torre é adicionado caso haja espaço na carta à escolha do jogador, a cor deve bater com o ícone na carta.
+
+- Caso a rota tenha acabado antes do final, as cartas que não foram alcançadas pela rota não realizam recrutamento.
+
+- Descarte a carta do mercado (leste ou oeste) virada para baixo
+
+- Vire a primeira carta do mercado, puxe o "comboio" de cartas e adicione uma nova carta ao final.
+
+- Caso reste Lucro (sobrem Florins sobre a carta virada), estes permanecem na nova carta que será virada no início do  mercado.
+
+*** AÇÃO DE VITÓRIA
+
+Use esta ação para declarar vitória, baseada em uma das cartas de vitória *ATIVAS*.
+
+- *Vitória Religiosa*: para vencer é necessário obter maior prestígio na religião predominante no mapa que seu oponente. A religião é considerada predominante quando:
+   - Possuir mais bispos de sua cor em jogo do que as duas outras religiões combinadas;
+   - Possuir mais tokens (Cavaleiros, Torres e Piratas) de sua cor em jogo nas suas teocracias do que as duas outras regiões combinadas.
+
+- *Vitória Imperial*: para vencer é necessário obter pelo menos mais 3 cartas de Império que seu oponente (2 jogadores). Não importa se Suseranos ou Vassalos.
+
+- *Vitória por Globalização*: para vencer é preciso obter dois ou mais mercadores a mais que seu oponente e mais ícones de prestígio de Descoberta.
+
+- *Vitória Renascentista*: para vencer é preciso obter mais repúblicas que seu oponente e ter pelo menos dois ícones de prestígio de Lei a mais que seu oponente.
+
+- *Vitória Burguesa*: o jogo acaba se os dois decks, leste e oeste forem esvaziados durante o /refresh/ do mercado. Caso isso ocorra o jogador com mais prestígio de Burguesia (Patron) vence.
+Em caso de empate a vitória vai para àquele com mais Florins.
+
+
+** GLOSSÁRIO
+
+*** BATALHA
+
+Para resolver uma Campanha, Guerra Civil ou Guerra Religiosa, cada token atacante mata umm token defensor, mas é também morto em troca. O jogador atacante escolhe as baixas.
+
+Os tokes atacantes são vitoriosos caso tenham ao menos um sobrevivente.
+
+- Quaisquer Agentes sobreviventes ou Tokens Reprimidos usados como atacantes em uma batalha devem ser colocados no mapa conquistado (até que seja saturado, tokens em excesso são reprimidos por nenhum custo).
+
+*** MUDANÇA DE REGIME
+
+A mudança ocorre em um Império durante uma Coroação, ou se ocorrer uma bem sucedida Votação, Campanha, Guerra Civil ou Religiosa contra aquele Império. Se o Império ainda estiver na pilha (fora de algum Tableau)
+ou no Tableau do oponente, mova a carta para o seu Tableau virada para o lado do Rei. Descarte qualquer rainha e/ou Império Vassalo, mas mantenha os tokens.
+
+Caso o Império esteja em seu pŕoprio Tableau (exceto em Campanhas), vire para o outro lado (essa mudança de regime é chamada /Strawman/), descarte qualquer rainha e/ou Império Vassalo, mas mantenha os tokens.
+
+Se a mudança de regime for causada por uma Campanha vitoriosa, o Império perdedor se torna Vassalo do atacante, descarte qualquer Bispo, Rainha e/ou Império Vassalo.
+
+- Caso aconteça uma mudança de regime, o jogador pode adicionar um cubo como um Mercador em uma das bordas do Império;
+
+e
+
+- O jogador pode *Emancipar* quaisquer Tokens reprimidos nesse Império, ou seja o token poderá ser movido da carta de Império para a carta de mapa correspondente;
+
+| *MUDANÇA DE REGIME* | *Coroação* | *Voto* | *Campanha* | *Guerra Civil* | *Guerra Religiosa* |
+| *Império fora de um Tableau* | Pegue o Império pra o seu Tableau (casamento com a Rainha) | - | Capture como Vassalo | Pegue o Império para o seu Tableau | Pegue o Império para o seu Tableau |
+| *Império no tableu do oponente* | - | Pegue o Império pra o seu Tableau | Capture como Vassalo | Pegue o Império para o seu Tableau    | Pegue o Império para o seu Tableau  |
+| *Império no seu próprio Tableau* | - | Vire para o lado República | Capture como Vassalo | Vire para o lado República (Strawman) | Vire para o lado República |
+
+*** REPRESSÃO (REPRIMIR)
+
+Remova o Token (não Pirata) do mapa, que é morto, caso o Império não esteja em um Tableau, ou torna-se um token Reprimido na carta do respectivo Império.
+
+- Caso a repressão seja feita como resultado da colocação de um Agente, pague 1 Florin;
+
+- Caso seja o resultado da operação de Repressão (/Repress/), ganhe 1 Florin;
+
+- Caso seja o resultado da operação de Imposto (/Tax/), não há custo;
+
+
+** /ONE-SHOT/ (ÍCONE DA BOMBA)
+
+*** GUERRAS CIVIS
+
+Existem dois tipos de Guerra Civil: Conspirações e Revolta dos Camponeses (/Peasant Revolt/). Em caso de vitória causam uma Mudança de Regime.
+
+- *Conspiração*
+  - *Atacantes:* Todos os Agentes na carta ativa, todos os Cavaleiros e Torres reprimidos naquele Império, e os Piratas na fronteira.
+  - *Defensores:* Cavaleiros e Torres na carta do Mapa. Caso vitória em uma Teocracia, vire a carta para o outro lado.
+
+- *Revolta dos Camponeses (/Peasant Revolt/)*
+  - *Atacantes*: Todos os agentes na carta ativa, todos os Peões (Mercadores) reprimidos naquele Império, seus Mercadores na fronteira e Piratas.
+  - *Defensores*: Cavaleiros e Torres na carta de Mapa.
+
+
+*** COROAÇÃO
+
+Case a rainha com o Rei de um Império listado no ícone de coroação (pretendentes da rainha), que ainda poderão estar na pilha de Impérios (fora de um Tableau).
+
+A coroação é considerada uma Mudança de Regime.
+
+- O par Rainha-Rei é tratado como duas cartas separadas durante as Operações do Leste/Oeste, mas é tratado como uma única carta para o movimento (silenciamento) do Bispo.
+
+- Se não for utilizar a coroação em sua ação, guarde a rainha embaixo da carta do seu personagem, porém adicione o prestígio dela ao seu total no final do jogo, se for o caso.
+
+*** GUERRAS RELIGIOSAS
+
+Caso jogue uma *Crusada*, *Reforma (/Reformation/)* ou *Jihad*, poderá ser iniciada uma Guerra Religiosa naquela localidade.
+
+Uma Guerra Religiosa bem sucedida vira a carta do Mapa para o outro lado da religião especificada e causa uma Mudança de Regime.
+
+- *Atacantes*: Todos os Agentes não Bispos na carta ativa, todos os Cavaleiros, Torres e Piratas na fronteira da carta de Mapa da mesma cor dos Agentes da carta jogada, mais quaiquer
+Cavaleiros nos Impérios adjacentes da mesma cor (esses tokens não se movem).
+
+- *Defensores*: Hereges na região, ou seja todos os Cavaleiros, Torres e Piratas de outras cores
+
+Uma Guerra Religiosa não pode ser conduzida onde não existam Hereges (inclusives Piratas nas fronteiras). Tokens Reprimidos não contam para essa regra.
+
+
+*** MUDANÇA DE ROTA COMERCIAL
+
+Mova o token de bloqueio da rota (caso exista) cobrindo o respectivo Empório (início da rota) para cobrir e desativar um Empório descoberto da mesma cor.
+
+Essa desativação Reprime qualquer token que possa estar nesse local.
+
+- Rota da Ilha das Especiarias (/Spice Islands Route/): o jogador deve ter pelo menos um ícone de prestígio de Descoberta em seu Tableau (sem contar a carta sendo jogada) antes de iniciar uma mudança de rota.
+
+** OPERAÇÕES
+
+*** DECAPITAR (/BEHEAD/)
+
+Descarte uma carta de qualquer Tableau que compartilhe a localização da carta ativa. Todavia uma carta não pode Decapitar a si mesma.
+
+- Se usada para descartar um Império, a carta usada para Decapitar é também descartada (morta).
+
+- Regiões (leste/oeste) compartilham localização com cartas de Mapa dessa área. Ex: Região Oeste e Portugal compartilham a mesma localização para efeitos da Decapitação.
+
+*** CAMPANHA
+
+Crie uma batalha em uma carta de Mapa adjacente a localização do Império (inclui diagonais).
+
+- *Atacantes*: todos os Cavaleiros na localização do Império;
+
+- *Defensores*: Cavaleiros e Torres na carta sendo atacada;
+
+Se a Campanha obtiver sucesso o Império sofre uma Mudança de Regime e é reivindicado como Vassalo ao atacante.
+
+- Custo: pague 1 Florin por Cavaleiro atacante;
+
+- Essa operação não move os tokens entre as cartas no Mapa;
+
+*** COMÉRCIO
+
+Pegue um Florin de qualquer carta do mercado especificado.
+
+*** CORSÁRIO
+
+Mova 1 Pirata da cor especificada para uma fronteira da localização da carta para outra fronteira na mesma localização.
+
+- Não pode ser movido para uma fronteira com um Pirata de mesma cor;
+
+- Ao mover-se automaticamente mata qualquer mercador ou Pirata de outra cor;
+
+*** INQUISIDOR
+
+Mova um Bispo da cor especificada de uma carta de um Tableau para uma carta adjacente no mesmo Tableau, ou em uma carta em qualquer Tableau que compartilhe a mesma localização de onde o Bispo está.
+
+- A presença de de qualquer Bispo em uma carta previne todas as Operações não religiosas de serem usadas (silencia);
+
+- Se a carta de destino contém um Bispo de qualquer cor, os dois Bispos são mortos;
+
+- Se a carta de destino possui um token Reprimido, o jogador pode escolher matar um deles sem custo;
+
+- O Bispo não pode mover-se para a carta de jogador (banqueiro);
+
+*** REPRIMIR
+
+Remova do Mapa um token de determinado tipo na localidade especificada e coloque esse token como um token Reprimido na carta correspondente de Império em jogo.
+
+- Caso o Império não esteja em jogo, mate o respectivo token e ganhe 1 Florin;
+
+*** CERCO (/SIEGE/)
+
+Mate uma Torre, Cavaleiro ou Pirata na localidade especificada.
+
+*** IMPOSTO (/TAX/)
+
+Mire um mercador na fronteira da localidade especificada. O jogador correspondente deve ou pagar 1 Florin ao Banco (China) ou Reprimir o mercador, então ele deve recrutar (/place a Levy/) no Império taxado
+(não é possível utilizar essa opção caso o Império esteja saturado).
+
+*** VOTO
+
+Causa uma mudança de Regime em um Império. O Império deve estar em um Tableau mas não como Vassalo e do lado especificado (leste/oeste).
+
+- Custo: pague 1 Florin por token Reprimido no Império;
+
+- Para executar essa operação o jogador deve possuir mais mercadores do que qualquer outro jogador na fronteira desse Império.
