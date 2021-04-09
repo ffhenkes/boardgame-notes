@@ -102,10 +102,9 @@ e
 
 - O jogador pode *Emancipar* quaisquer Tokens reprimidos nesse Império, ou seja o token poderá ser movido da carta de Império para a carta de mapa correspondente;
 
-| *MUDANÇA DE REGIME* | *Coroação* | *Voto* | *Campanha* | *Guerra Civil* | *Guerra Religiosa* |
-| *Império fora de um Tableau* | Pegue o Império pra o seu Tableau (casamento com a Rainha) | - | Capture como Vassalo | Pegue o Império para o seu Tableau | Pegue o Império para o seu Tableau |
-| *Império no tableu do oponente* | - | Pegue o Império pra o seu Tableau | Capture como Vassalo | Pegue o Império para o seu Tableau    | Pegue o Império para o seu Tableau  |
-| *Império no seu próprio Tableau* | - | Vire para o lado República | Capture como Vassalo | Vire para o lado República (Strawman) | Vire para o lado República |
+#+CAPTION: Esta tabela demonstra os efeitos nas mudanças de regime.
+#+NAME: regime-change.png
+[[./regime-change.png]]
 
 *** REPRESSÃO (REPRIMIR)
 
