@@ -27,11 +27,11 @@ Exceção: No caso de o /one-shot/ ser uma guerra, civil ou religiosa, deve-se o
 
 *** VENDER UMA CARTA
 
-Discarte uma carta de sua mão ou de seu tableu e ganhe 2 Florins.
+Descarte uma carta de sua mão ou de seu Tableau e ganhe 2 Florins.
 
 *** EXECUTAR OPERAÇÕES (LESTE/OESTE)
 
-No máximo uma vez por turno é possível executar uma operação em cada carta de seu tableu em determinado sentido (leste/oeste), em qualquer ordem que desejar.
+No máximo uma vez por turno é possível executar uma operação em cada carta de seu Tableau em determinado sentido (leste/oeste), em qualquer ordem que desejar.
 
 *** PERCORRA A ROTA COMERCIAL (LESTE/OESTE)
 
