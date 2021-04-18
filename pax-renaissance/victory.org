@@ -1,0 +1,10 @@
+* AÇÃO DE VITÓRIA
+Use essa ação para declarar vitória, baseada em uma das cartas de vitória *ATIVAS*.
+
+| [[./holy-victory.png]]     | *Vitória Religiosa*:        | Obter maior prestígio na religião predominante                                                                                                                                                                             |
+|                        |                             | Possuir mais bispos da cor dessa religião em jogo do que as demais religiões combinadas                                                                                                                                    |
+|                        |                             | Possuir mais peças da cor dessa religião nas respectivas *Teocracias* do que nas demais combinadas                                                                                                                         |
+| [[./imperial-victory.png]] | *Vitória Imperialista*:     | Possuir 2 cartas de Império a mais que seu oponente (*3 em 2 jogadores*). Não importa se Suseranos ou Vassalos                                                                                                            |
+| [[./global-victory.png]]   | *Vitória por Globalização*: | Possuir dois ou mais mercadores que seus oponentes e ter pelo menos dois ícones de prestígio de Descoberta                                                                                                                 |
+| [[./ren-victory.png]]      | *Vitória Renascentista*:    | Obter mais Repúblicas que seu oponente e ter pelo menos dois ícones de prestígio de Lei a mais que seus oponentes                                                                                                          |
+| [[./patron-victory.png]]   | *Vitória dos Patronos*:     | O jogo acaba se os dois decks, leste e oeste forem esvaziados durante o /refresh/ do mercado. Caso isso ocorra o jogador com mais prestígio de Patrono vence. Em caso de empate a vitória vai para àquele com mais Florins |
