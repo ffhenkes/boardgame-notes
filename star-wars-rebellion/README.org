@@ -80,13 +80,15 @@ Cada jogador pode destacar no máximo duas unidades em cada sistema.
 
 ** Vencendo o jogo
 
-O jogador Imperial vence se encontrar e destruir a base rebelde.
+O jogador Imperial vence se encontrar e destruir a base rebelde. Se o jogador Imperial possuir lealdade ou unidades terrestres no mesmo sistema da base Rebelde, a base Rebelde é revelada imediatamente.
 
 O jogador Rebelde vence se o marcador de turno encontrar o marcador de reputação.
 
-O marcador de reputação (com o ícone dos Rebeldes) sobe quando um objetivo é cumprido.
+O marcador de reputação (com o ícone dos Rebeldes) sobe o valor determinado na carta de objetivo quando este objetivo é cumprido.
 
 O jogador Rebelde pode jogar a carta de objetivo de sua mão se a tiver completado o requisito da carta no momento especificado.
 
-#+ATTR_LATEX: :width 2.0in
-[[./death-star.png]]
+- *Regras adicionais:*
+
+#+ATTR_LATEX: :width 4.0in
+[[./details.png]]
