@@ -4,12 +4,12 @@
 
 ** Fase de Atribuição
 
-Atribuir líderes à missões.
+Atribuir líderes às missões.
 
 #+ATTR_LATEX: :width 2.0in
 [[./lider.png]]
 
-O jogador Rebelde começa atribuindo seus líderes a missões. Quando terminar, o jogador Imperial atribui seus líderes a missões.
+O jogador Rebelde começa atribuindo seus líderes. Quando terminar, o jogador Imperial atribui seus líderes às missões.
 
 Cada missão possui um requisito de habilidade no canto superior esquerdo.
 
