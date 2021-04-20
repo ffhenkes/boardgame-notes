@@ -1,0 +1,85 @@
+* Star Wars Rebellion
+
+** Fase de Atribuição
+
+Atribuir líderes à missões.
+
+[[./lider.png]]
+
+O jogador Rebelde começa atribuindo seus líderes a missões. Quando terminar, o jogador Imperial atribui seus líderes a missões.
+
+Cada missão possui um requisito de habilidade no canto superior esquerdo.
+
+[[./skills.png]]
+
+** Fase de Comando
+
+- *Ativar um Sistema*:
+
+Use um líder de sua reserva de líderes para mover unidades no tabuleiro e possivelmente iniciar um combate.
+
+Unidades terrestres e TIE fighters precisam ser transportados (verifique a capacidade da nave de transporte).
+
+- *Revelar uma Missão*:
+
+Use um líder em uma carta de missão para revelar o efeito da carta.
+
+[[./lider-effect.png]]
+
+O termo *RESOLVA* significa que o efeito da carta acontece automaticamente e não pode ser contraposto.
+
+O termo *TENTE* significa que o efeito da carta só acontece se a missão for bem-sucedida. A missão é considerada automaticamente bem-sucedida a menos que seja contraposta por um líder adversário.
+
+Para *CONTRAPOR* uma missão seu adversário pode escolher um líder de sua reserva para contrapor essa missão. Um líder adversário é colocado no mesmo sistema onde a missão está sendo tentada.
+
+Se ambos jogadores tiverem um líder no sistema, a missão é considerada contraposta.
+
+Os jogadores rolam dados (de qualquer cor) igual a soma dos ícones de habilidade de todos os seus líderes nesse sistema.
+
+Os dados são rolados somente para ícones correspondentes ao requisito de habilidade da missão.
+
+** Fase de Restauração
+
+- *Retornar líderes*:
+
+Os líderes são retornados à reserva. Caso ainda estejam sobre alguma carta de missão, esta volta para a mão.
+
+- *Comprar missões*:
+
+Cada jogador compra duas cartas, caso possua mais de 10 cartas, descarta até o limite.
+
+- *Lançar sondas*:
+
+O jogador Imperial compra duas cartas de sonda. Cada carta de sonda mostraum sistema onde a base Rebelde *NÃO* está localizada. O jogador Imperial mantém estas cartas em segredo.
+
+- *Comprar objetivo*:
+
+O jogador Rebelde compra uma carta de objetivo.
+
+- *Avançar marcador de tempo*:
+
+Avance o marcador de tempo um espaço no indicador.
+
+[[./time-marker.png]]
+
+- *Destacar unidades*:
+
+Cada jogador desliza todas as suas unidades um espaço para baixo em sua linha de construção
+
+Unidades que deslizarem para fora do espaço "1" estão prontas para serem usadas.
+
+O jogador posiciona essas unidades em sistemas onde possui marcadores de lealdade ou subjugação.
+
+Cada jogador pode destacar no máximo duas unidades em cada sistema.
+
+** Vencendo o jogo
+
+O jogador Imperial vence se encontrar e destruir a base rebelde.
+
+O jogador Rebelde vence se o marcador de turno encontrar o marcador de reputação.
+
+O marcador de reputação (com o ícone dos Rebeldes) sobe quando um objetivo é cumprido.
+
+O jogador Rebelde pode jogar a carta de objetivo de sua mão se a tiver completado o requisito da carta no momento especificado.
+
+[[./death-star.png]]
