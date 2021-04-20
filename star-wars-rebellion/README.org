@@ -1,15 +1,19 @@
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+
 * Star Wars Rebellion
 
 ** Fase de Atribuição
 
 Atribuir líderes à missões.
 
+#+ATTR_LATEX: :width 2.0in
 [[./lider.png]]
 
 O jogador Rebelde começa atribuindo seus líderes a missões. Quando terminar, o jogador Imperial atribui seus líderes a missões.
 
 Cada missão possui um requisito de habilidade no canto superior esquerdo.
 
+#+ATTR_LATEX: :width 2.0in
 [[./skills.png]]
 
 ** Fase de Comando
@@ -24,6 +28,7 @@ Unidades terrestres e TIE fighters precisam ser transportados (verifique a capac
 
 Use um líder em uma carta de missão para revelar o efeito da carta.
 
+#+ATTR_LATEX: :width 2.0in
 [[./lider-effect.png]]
 
 O termo *RESOLVA* significa que o efeito da carta acontece automaticamente e não pode ser contraposto.
@@ -60,6 +65,7 @@ O jogador Rebelde compra uma carta de objetivo.
 
 Avance o marcador de tempo um espaço no indicador.
 
+#+ATTR_LATEX: :width 2.0in
 [[./time-marker.png]]
 
 - *Destacar unidades*:
@@ -82,4 +88,5 @@ O marcador de reputação (com o ícone dos Rebeldes) sobe quando um objetivo é
 
 O jogador Rebelde pode jogar a carta de objetivo de sua mão se a tiver completado o requisito da carta no momento especificado.
 
+#+ATTR_LATEX: :width 2.0in
 [[./death-star.png]]
