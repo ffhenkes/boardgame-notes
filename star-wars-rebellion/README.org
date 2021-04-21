@@ -6,7 +6,7 @@
 
 Atribuir líderes às missões.
 
-#+ATTR_LATEX: :width 2.0in
+#+ATTR_LATEX: :width 1.8in
 [[./lider.png]]
 
 O jogador Rebelde começa atribuindo seus líderes. Quando terminar, o jogador Imperial atribui seus líderes às missões.
