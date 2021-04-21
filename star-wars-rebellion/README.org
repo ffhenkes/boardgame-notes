@@ -13,6 +13,8 @@ O jogador Rebelde começa atribuindo seus líderes. Quando terminar, o jogador I
 
 Cada missão possui um requisito de habilidade no canto superior esquerdo.
 
+Até dois líderes podem ser atriuídos por missão.
+
 #+ATTR_LATEX: :width 2.0in
 [[./skills.png]]
 
@@ -23,6 +25,8 @@ Cada missão possui um requisito de habilidade no canto superior esquerdo.
 Use um líder de sua reserva de líderes para mover unidades no tabuleiro e possivelmente iniciar um combate.
 
 Unidades terrestres e TIE fighters precisam ser transportados (verifique a capacidade da nave de transporte).
+
+Se um líder não possuir nenhum *VALOR TÁTICO* este não pode ativar um sistema!
 
 - *Revelar uma Missão*:
 
