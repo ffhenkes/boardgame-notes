@@ -1,0 +1,188 @@
+* First Train to Nuremberg
+
+Levar passageiros e encomendas postais usando trilhos construídos pela sua pequena companhia férrea.
+
+Influência com o governo, o negociante de trens usados e com as grandes companhias férreas da região, são fundamentais para atingir seus objetivos.
+
+** Fase Um: Cubos de Investimento
+
+Os cubos de sua cor representam uma parte substacial de capital adquirido junto aos negociantes e donos de terra locais.
+
+Cada jogador pega 12 cubos da sua reserva. Caso houverem menos do que 12 cubos, este deve pegar o houver disponível.
+
+Cubos não utilizados no turno anterior, podem ser guardados para utilização no próximo. O número máximo de cubos por turno é de 15.
+
+** Fase Dois: Pontos de Influência
+
+Existem 4 cores de influência:
+
+Verde e Vermelho: Influência com as grandes companhias férreas da região. Permite a construção de trilhos nas suas mais proeminentes localizações,
+além disso ajuda a convencer os conselheiros a compra de seus trilhos depreciados e desvalorizados que não trazem mais receita.
+
+Marrom: Influência com o negociante de trens usados. Essa influência é necessária para obter bons trens para suas entregas.
+
+Branco: Influência com o governo. Com essa influência poderá ignorar donos de terras que se opuserem aos seus planos de expansão.
+
+Randomicamente adicione um disco de influência em cada box de leilão. O token adicionado aumenta o nível de influência que pode ser conseguido daquela respectiva cor
+no leilão subsequente.
+
+** Fase Três: Leilão por Pontos de Influência
+
+Existem duas linhas de box de influências para o leilão. Na linha superior o mínimo de 3 cubos de investimento devem ser usados no lance. Na linha inferior 2 cubos.
+
+Ao selecionar um box e adicionar cubos de investimento esta quantidade deve ser superior a quantidade anterior adicionada pelo oponente. Ao ser superado dessa forma
+o jogador recolhe os cubos para si.
+
+Se um jogador já tem dois lances em jogo, ele passa a vez. Quando todos os jogadores tiverem dois lances em jogo o leilão acaba com cada um arrematando as respectivas influências
+descritas no box de influência.
+
+Após obter as influências registre as mesmas nas respectivas trilhas de influência.
+
+** Fase Quatro: Ordem de Jogo, Construir, Comprar Trens, Transporte
+
+De acordo com a influência conquistada por cada jogador, ajuste o jogador inicial das fases subsequentes.
+
+Para a construção de trilhos, a influência com o governo, a de cor branca, é considerada para a ordem de jogo, quem tem mais vai na frente e assim em diante.
+
+Para comprar trens e mover passageiros e transporte de carga é considerada a influência na cor marrom. Da mesma forma que na ação anterior, quem tem mais vai na frente e assim em diante.
+
+Caso dois ou mais jogadores estejam empatados, o jogador que está no topo da pilha de discos vai na frente.
+
+** Fase Cinco: Construir Trilhos
+
+Nesta fase cada jogador tem a oportunidade de construir uma série de trilhos formando links. Uma série significa uma sequencia que tem uma origem clara e que não contém bifurcações (todavia bifurcações ainda
+podem existir pois os links podem ter sido formados a partir de uma junção com outros links previamente construídos).
+
+Ao construir um trilho, este deve ser posicionado de forma que cruze a fronteira entre duas areas. Podem ser construídos trilhos na quantidade de 0 a 15, conforme o jogador deseje.
+
+Após todos os jogadores terem construídos suas séries de trilhos a fase acaba.
+
+No primeiro turno os trilhos devem partir de uma das cidades contendo uma das estações da companhia verde ou vermelha.
+
+Nos turnos subsequentes, o link pode ser extendido a partir do seu trilho previamente construído.
+
+O jogador pode criar uma bifurcação a partir de um trilho previamente construído, porém não pode criar essas bifurcações durante seu processo de construção. Após finalizar a série de trilhos
+formando um link, deve ser possível demonstrar a integridade do mesmo formando uma linha continua do início ao fim.
+
+Seu último trilho não precisa necessariamente ser conectado a uma cidade/estação.
+
+O jogador não pode construir trilhos em direção a uma montanha ou sobre os campos de lúpulo.
+
+A área denominada "O Sul" (The South) só pode ser usada como ponto de partida.
+
+O Nuremberg Norte e Nuremberg Sul nunca pode ser conectados pode um trilho.
+
+É possível construir sobre rios, caso eles sejam fronteiras comuns.
+
+Ao construir um trilho em uma área verde ou vermelha, é necessário pagar uma influência desse tipo em adição aos custos de construção. Caso construa para dentro de uma essas áreas e para fora da mesma área
+custa apenas um ponto de influência, o custo não é pago dobrado.
+
+Assim que os trilhos de determinado jogador é vendido para uma das companhias, todas as estações neutras conectadas a esses trilhos passam a ser dessa companhia. Então é possível para qualquer jogador
+construir a partir dessas áreas, pagando a devida influência.
+
+É possível que uma cidade esteja conectada às duas companhias (verde e vermelha) nesse caso para construir a partir ou para esse local, deve-se pagar influência às duas companhias.
+
+Caso existam um ou mais donos de terra (peões brancos) em uma área que o jogador deseja construir, deve-se pagar uma influência com o governo para cada um desses donos de terra e devolvê-los a caixa
+do jogo.
+
+Ao usar o mapa de Nuremberg pontos extras podem ser reclamados, ao conectar por uma linha contínua as cidades de Nuremberg e Furth, todos os jogadores contribuindo para esse link ganham um ponto extra para
+cada trilho de sua cor na formação.
+
+Após finalizar a construção, calcule o custo total em pontos de construção.
+
+O custo para construir entre duas planícies é de 1 ponto.
+
+O custo para construir entre uma planície e um vale é de 2 pontos (apenas no mapa do verso).
+
+o custo para construir sobre um rio é de 2 pontos.
+
+O custo deve ser pago usando cubos de investimento e pontos de influência.
+
+Cada cubo de investimento vale um ponto de construção, assim como cada ponto de influência vale um ponto de construção.
+
+Para usar pontos de influência como pontos de construção, primeiramente os cubos de investimento devem ter sido utilizados.
+
+** Fase Seis: Comprar Trens e Mover Passageiros e Encomendas Postais/Cerveja
+
+*** Encomendas:
+
+- Postais: cubos amarelos
+- Cerveja: cubos cinza
+
+*** Passageiros
+
+Existem dois tipos (peões vermelhos e verdes) aqueles que desejam mover-se até uma cidade vermelha e os que desejam mover-se a uma cidade verde.
+
+
+*** Trens
+
+Para comprar trens é necessária influência com o negociante de trens (cor marrom).
+
+Os trens da primeira linha custam 3 pontos de influência porém fornecem mais pontos de vitória.
+
+Os trens da segunda linha custam 2 pontos de influência.
+
+Os trens da terceira linha custam 1 ponto de influência.
+
+*** Ações
+
+Durante essa fase, escolha entre comprar trens, transportar ou passar.
+
+Caso escolha passar não poderá mais executar ações nessa fase.
+
+Antes de mover as encomendas e os passageiros é necessário ter adquirido o espaço nos trens e uma locomotiva.
+
+Uma vez que o jogador execute uma ação, isso se repete até que cada jogador tenha executado quantas ações desejar ou seja posssível.
+
+É possível que o jogador compre um trem, leve passageiros e encomendas, depois compre outro trem e leve mais passageiros e encomendas e vá indo assim.
+
+A fase só acaba quando todos os jogadores optarem por passar.
+
+Caso a escolha seja comprar um trem, o custo deverá ser pago em influência de acordo com o valor do trem.
+
+No tabuleiro de trens existem 6 linhas cada qual com seu custo associado.
+
+É possível comprar até 3 trens por fase, porém um de cada vez por ação.
+
+Cada trem pode apenas ser comprado por um único jogador.
+
+Não é possível ter mais de um único trem por categoria.
+
+É possível utilizar cubos de investimento e/ou influência de outro tipo na razão de 3:1 para inteirar o valor dos trens e nunca mais do que o necessário para a compra dos trens.
+
+Ao mover passageiros ou encomendas, retire-os do tabuleiro e aloque em seu trem no respectivo espaço correspondente (carga ou vagão).
+
+Nesse jogo as encomendas e os passageiros não são movidos no tabuleiro, porém eles devem efetivamente poder utilizar as linhas construídas corretamente.
+
+Não é possível mover uma encomenda para uma estação que seja de uma das grandes companhias (vermelha ou verde) e coloca-la em seu trem, se for esse o caso retire os cubos de jogo.
+
+Da mesma forma um passageiro não pode mover-se de uma estação de determinada cor para outra de mesma cor, deve ser removido do jogo se esse for o caso.
+
+** Fase Sete: Pontos de Vitória e Lucros e Perdas
+
+
+*** Pontos de Vitória
+
+Some os pontos de vitória conquistados pelo número de passageiros transportados nas devidas classes e encomendas entregues.
+
+Marque estes pontos na trilha.
+
+
+*** Lucros e Perdas
+
+Seu lucro é contabilizado pelas encomendas e passageiros transportados neste turno menos as despesas com a manutenção da rede de trilhos.
+
+Cada cerveja movida vale $2 e encomendas postais e passageiros valem $1.
+
+Subtraia então $1 para cada trilho de sua cor no tabuleiro. Quando tiver o número final, ajuste o disco de sua cor no display de "Lucros e Perdas" (Profit and Loss).
+
+Após o cálculo retire os passageiros e encomendas dos vagões e os mantenha na sua área de jogo pois serão novamente contabilizados no final do jogo.
+
+Retire também seus marcadores de trem e devolva ao seu estoque pessoal.
+
+
+** Fase Oito: Ordem de Jogo
+
+Ajuste a sua ordem de jogo de acordo com o display de Lucros e Perdas" onde a companhia do jogador que estiver com mais lucro (ou menor perda) ficará na frente.
+
+** Fase Nove:
