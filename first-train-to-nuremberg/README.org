@@ -185,4 +185,44 @@ Retire também seus marcadores de trem e devolva ao seu estoque pessoal.
 
 Ajuste a sua ordem de jogo de acordo com o display de Lucros e Perdas" onde a companhia do jogador que estiver com mais lucro (ou menor perda) ficará na frente.
 
-** Fase Nove:
+** Fase Nove: Aquisições
+
+É difícila para uma pequena companhia manter-se lucrativa. Dessa forma para que sua companhia não vá a falência devido ao custo elevado de manutenção da infraestrutura criada por você,
+será necessário fazer com que as grandes companhias assumam o controle da sua malha férrea.
+
+Para tal será necessária influência para convencer as grandes que vale a pena assumir o controle de seus trilhos.
+
+Gaste 1 ponto de influência com a respectiva companhia para que a mesma assuma cada dois de seus trilhos.
+
+Todos os trilhos cedidos devem fazer parte de um mesmo link.
+
+O primeiro trilho do link, deve ser conectado com uma estação da companhia de mesma cor que estará fazendo essa aquisição.
+
+O final do trilho deve terminar em uma cidade.
+
+Você pode escolher não ter nenhum de seus trilhos adquirido.
+
+** Fase Dez: Fim do Turno
+
+Caso seja o último turno vá para a proxima fase.
+
+Avance o marcador de turno.
+
+Remova os tokens de influencia dos boxes e coloque-os de volta na bag.
+
+
+** Fim de Jogo e Vencedor
+
+Uma vez terminado, os jogadores calculam seus pontos de vitória finais.
+
+2VP para cada set formado por 1 cerveja, 1 encomenda postal e 1 passageiro (vermelho ou verde).
+
+Ajuste esse valor no display de "Lucros e Perdas".
+
+No seu track de PV caso esteja em lucro, adicione esse valor ao total, caso em perda, diminua essa valor do seu total.
+
+Diminua do seu total 1 ponto para cada trilho de sua cor remanescente no tabuleiro.
+
+Esse é o seu score final.
+
+O jogador com mais pontos de vitória é o vencedor. Em caso de empate o jogador que estiver na frente do display de "Lucros e Perdas" é o vencedor.
