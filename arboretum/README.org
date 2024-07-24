@@ -10,13 +10,13 @@
 
 ** Jogo
 
-- Os jogadores se revesam em turnos no sentido horário
+- Os jogadores se revezam em turnos no sentido horário
 - Em seu turno o jogador saca duas cartas do baralho ou das pilhas de descartes
 - O jogador deve baixar uma carta em seu Arboretum, ficar com outra em sua mão e descartar uma carta
 - Cada jogador possui uma pilha de descarte
 - O jogador pode sacar cartas de forma combinada entre todas as pilhas de descarte e/ou do baralho
-- Caso o jogador deseje sacar das pilhas de descarte, as cartas devem ser do topo
-- Ao baixar uma carta em seu Arboretum, isso deve ser feito na ortogonal e sempre de forma adjascente, diagonais não são permitidas
+- Caso o jogador desejar sacar das pilhas de descarte, as cartas devem ser do topo
+- Ao baixar uma carta em seu Arboretum, isso deve ser feito na ortogonal e sempre de forma adjacente, diagonais não são permitidas
 - Uma vez baixada a carta não poderá mudar de posição
 - O jogo segue até o final do baralho
 
@@ -25,7 +25,7 @@
 *** Regras
 
 - Seguir sempre a partir de um espécie
-- Pode haver cartas de espćies diferentes entre elas
+- Pode haver cartas de espéies diferentes entre elas
 - Sequencias "limpas", da mesma espécie são vantajosas
 - O jogador escolhe o caminho que deseja traçar, de forma ortogonal, diagonais não são permitidas
 - Deve formar uma sequencia crescente
@@ -35,7 +35,7 @@
 *** Contabilização
 
 - Cada carta da sequência concede 1 ponto
-- Caso termine em 8 ganha 2 ponto extras
+- Caso termine em 8 ganha 2 pontos extras
 - Caso comece com 1 ganha 1 ponto extra
 - Caso a sequencia seja limpa ganha o dobro por carta (pontos extra não dobram)
 - Sequencias limpas (apenas da mesma espécie) precisam no mínimo de 4 cartas para pontuar dobrado, caso contrário pontuam normalmente.
@@ -44,9 +44,9 @@
 ** Quem pontua?
 
 - Para cada espécie, quem tiver na sua mão as cartas que batem com a sua sequencia formada da mesma espécie com a maior soma, pontua. Os demais jogadores zeram.
-- Caso haja empate, todos pomntuam.
+- Caso haja empate, todos pontuam.
 - Caso nenhum dos jogadores possua cartas da espécie sendo avaliada, todos pontuam.
-- Caso o jogador tenha guardado em sua mão o 8 e outro jogador possua o 1 o 8 valerá 0.
+- Caso o jogador tenha guardado em sua mão o 8 e outro jogador possua o 1, o 8 não vale nada.
 
 ** Quem vence?
 
