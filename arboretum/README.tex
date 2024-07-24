@@ -1,0 +1,105 @@
+% Created 2024-07-24 qua 15:16
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Fabio Favero Henkes}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Fabio Favero Henkes},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.3)},
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Arboretum}
+\label{sec:orgdecfc23}
+
+\subsection{Preparação}
+\label{sec:orgd69acec}
+
+\begin{itemize}
+\item Em um jogo de dois jogadores 4 espécies devem ser removidas, ficando 6 espécies em jogo.
+\item O jogador inicial é o último que irrigou uma planta!
+\item O jogador à direita é o crupier
+\item O crupier embaralha e distribui 7 cartas para cada jogador
+\item O jogador sempre precisa ter em suas mão 7 cartas
+\end{itemize}
+
+\subsection{Jogo}
+\label{sec:org9cc0829}
+
+\begin{itemize}
+\item Os jogadores se revezam em turnos no sentido horário
+\item Em seu turno o jogador saca duas cartas do baralho ou das pilhas de descartes
+\item O jogador deve baixar uma carta em seu Arboretum, ficar com outra em sua mão e descartar uma carta
+\item Cada jogador possui uma pilha de descarte
+\item O jogador pode sacar cartas de forma combinada entre todas as pilhas de descarte e/ou do baralho
+\item Caso o jogador desejar sacar das pilhas de descarte, as cartas devem ser do topo
+\item Ao baixar uma carta em seu Arboretum, isso deve ser feito na ortogonal e sempre de forma adjacente, diagonais não são permitidas
+\item Uma vez baixada a carta não poderá mudar de posição
+\item O jogo segue até o final do baralho
+\end{itemize}
+
+\subsection{Pontuação:}
+\label{sec:orgbc977ae}
+
+\subsubsection{Regras}
+\label{sec:orge7e279a}
+
+\begin{itemize}
+\item Seguir sempre a partir de um espécie, deve iniciar e terminar com a mesma espécie
+\item Pode haver cartas de espécies diferentes entre a carta inicial e final
+\item Sequencias "limpas", da mesma espécie são vantajosas
+\item O jogador escolhe o caminho que deseja traçar, de forma ortogonal, diagonais não são permitidas
+\item Deve formar uma sequencia crescente
+\item Não precisa ser uma sequencia perfeita, pode haver falhas entre os números 1-3-5-7-8 por ex
+\item Uma mesma carta pode participar de mais de uma sequência (desde que parta de espécies diferentes, formando nova sequencia)
+\end{itemize}
+
+\subsubsection{Contabilização}
+\label{sec:orgf2062e2}
+
+\begin{itemize}
+\item Cada carta da sequência concede 1 ponto
+\item Caso termine em 8 ganha 2 pontos extras
+\item Caso comece com 1 ganha 1 ponto extra
+\item Caso a sequencia seja limpa ganha o dobro por carta (pontos extra não dobram)
+\item Sequencias limpas (apenas da mesma espécie) precisam no mínimo de 4 cartas para pontuar dobrado, caso contrário pontuam normalmente.
+\end{itemize}
+
+
+\subsection{Quem pontua?}
+\label{sec:orge06f11f}
+
+\begin{itemize}
+\item Para cada espécie, quem tiver na sua mão as cartas que batem com a sua sequencia formada da mesma espécie com a maior soma, pontua. Os demais jogadores zeram.
+\item Caso haja empate, todos pontuam.
+\item Caso nenhum dos jogadores possua cartas da espécie sendo avaliada, todos pontuam.
+\item Caso o jogador tenha guardado em sua mão o 8 e outro jogador possua o 1, o 8 não vale nada.
+\end{itemize}
+
+\subsection{Quem vence?}
+\label{sec:org57f0b41}
+
+\begin{itemize}
+\item Quem tiver o maior número de pontos ao final é o vencedor
+\item Caso haja empate, quem tiver o maior número de espécies em seu arboretum vence
+\end{itemize}
+\end{document}

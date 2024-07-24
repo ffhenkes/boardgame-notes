@@ -24,8 +24,8 @@
 
 *** Regras
 
-- Seguir sempre a partir de um espécie
-- Pode haver cartas de espéies diferentes entre elas
+- Seguir sempre a partir de um espécie, deve iniciar e terminar com a mesma espécie
+- Pode haver cartas de espécies diferentes entre a carta inicial e final
 - Sequencias "limpas", da mesma espécie são vantajosas
 - O jogador escolhe o caminho que deseja traçar, de forma ortogonal, diagonais não são permitidas
 - Deve formar uma sequencia crescente
