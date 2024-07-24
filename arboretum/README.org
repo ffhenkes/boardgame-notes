@@ -1,0 +1,54 @@
+* Arboretum
+
+** Preparação
+
+- Em um jogo de dois jogadores 4 espécies devem ser removidas, ficando 6 espécies em jogo.
+- O jogador inicial é o último que irrigou uma planta!
+- O jogador à direita é o crupier
+- O crupier embaralha e distribui 7 cartas para cada jogador
+- O jogador sempre precisa ter em suas mão 7 cartas
+
+** Jogo
+
+- Os jogadores se revesam em turnos no sentido horário
+- Em seu turno o jogador saca duas cartas do baralho ou das pilhas de descartes
+- O jogador deve baixar uma carta em seu Arboretum, ficar com outra em sua mão e descartar uma carta
+- Cada jogador possui uma pilha de descarte
+- O jogador pode sacar cartas de forma combinada entre todas as pilhas de descarte e/ou do baralho
+- Caso o jogador deseje sacar das pilhas de descarte, as cartas devem ser do topo
+- Ao baixar uma carta em seu Arboretum, isso deve ser feito na ortogonal e sempre de forma adjascente, diagonais não são permitidas
+- Uma vez baixada a carta não poderá mudar de posição
+- O jogo segue até o final do baralho
+
+** Pontuação:
+
+*** Regras
+
+- Seguir sempre a partir de um espécie
+- Pode haver cartas de espćies diferentes entre elas
+- Sequencias "limpas", da mesma espécie são vantajosas
+- O jogador escolhe o caminho que deseja traçar, de forma ortogonal, diagonais não são permitidas
+- Deve formar uma sequencia crescente
+- Não precisa ser uma sequencia perfeita, pode haver falhas entre os números 1-3-5-7-8 por ex
+- Uma mesma carta pode participar de mais de uma sequência (desde que parta de espécies diferentes, formando nova sequencia)
+
+*** Contabilização
+
+- Cada carta da sequência concede 1 ponto
+- Caso termine em 8 ganha 2 ponto extras
+- Caso comece com 1 ganha 1 ponto extra
+- Caso a sequencia seja limpa ganha o dobro por carta (pontos extra não dobram)
+- Sequencias limpas (apenas da mesma espécie) precisam no mínimo de 4 cartas para pontuar dobrado, caso contrário pontuam normalmente.
+
+
+** Quem pontua?
+
+- Para cada espécie, quem tiver na sua mão as cartas que batem com a sua sequencia formada da mesma espécie com a maior soma, pontua. Os demais jogadores zeram.
+- Caso haja empate, todos pomntuam.
+- Caso nenhum dos jogadores possua cartas da espécie sendo avaliada, todos pontuam.
+- Caso o jogador tenha guardado em sua mão o 8 e outro jogador possua o 1 o 8 valerá 0.
+
+** Quem vence?
+
+- Quem tiver o maior número de pontos ao final é o vencedor
+- Caso haja empate, quem tiver o maior número de espécies em seu arboretum vence
